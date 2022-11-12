@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^9.14.0",
+    "mercadopago": "^1.5.14"
+  }
+}
