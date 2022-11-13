@@ -60,8 +60,8 @@
                         <div class="card" style="border: none;">
                             <?php
                               // 1) Conexion
-                              $conexion = mysqli_connect("mysql://fdxnogh9ulra5ujq:uycgjx70mu3k9vex@h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qad7ort2fqaauzk2", "fdxnogh9ulra5ujq	", "uycgjx70mu3k9vex", "qad7ort2fqaauzk2");
-                              mysqli_select_db($conexion, "tienda1");
+                              $conexion = mysqli_connect("h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "fdxnogh9ulra5ujq	", "uycgjx70mu3k9vex", "qad7ort2fqaauzk2");
+                              mysqli_select_db($conexion, "qad7ort2fqaauzk2");
                               $query='SELECT * FROM `productos` WHERE `id` = '.$_GET["id"];
                               // 3) Ejecutar la orden y obtenemos los registros
                               $datos= mysqli_query($conexion, $query);
@@ -130,8 +130,8 @@
       </div>
       <div class="modal-body" style = "margin: 12px;">
       <?php
-         $conexion = mysqli_connect("mysql://fdxnogh9ulra5ujq:uycgjx70mu3k9vex@h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qad7ort2fqaauzk2", "fdxnogh9ulra5ujq	", "uycgjx70mu3k9vex", "qad7ort2fqaauzk2");
-        mysqli_select_db($conexion,"tienda1");
+    $conexion = mysqli_connect("h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "fdxnogh9ulra5ujq	", "uycgjx70mu3k9vex", "qad7ort2fqaauzk2");
+    mysqli_select_db($conexion,"qad7ort2fqaauzk2");
         // 2) Almacenamos los datos del envío GET
         // a) generar variables para el id a utilizar
         $id = $_GET['id'];
