@@ -380,6 +380,8 @@ nav.navbar.navbar-expand-lg.bg-light {
     .logo {
         width: 20%;
         float: right;
+        display: flex;
+        justify-content: center;
     }
     nav.navbar.navbar-expand-lg.bg-light {
         padding: 0;
