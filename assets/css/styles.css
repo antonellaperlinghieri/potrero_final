@@ -369,4 +369,7 @@ h6.text-uppercase.fw-bold.mb-4 {
     .title {
         font-size: 3em;
     }
+    .banner {
+        width: 50%;
+    }
 }
