@@ -20,7 +20,7 @@
     <!-- MENU Y BANNER -->
 <header>
 <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid  col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 ">
+  <div class="container-fluid">
     <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" alt="" srcset="" style = "width : 50%";> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
