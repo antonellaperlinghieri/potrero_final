@@ -368,6 +368,6 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 25px;
+    font-size: 15px;
     }
 }
