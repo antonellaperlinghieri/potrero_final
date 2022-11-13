@@ -9,6 +9,9 @@
         <!-- ESTILOS CSS -->
         <link rel="stylesheet" href="assets/css/styles.css" />
         <!-- BOOTSTRAP-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </head>
@@ -239,36 +242,31 @@
     }
   });
 </script> <!--FIN MERCADO PAGO -->
-    <!-- FOOTER -->
-<footer class="text-center text-lg-start bg-light text-muted">
+   <!-- FOOTER -->
+<footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
             <button type="button" class="btn btn-outline-dark"><a href="index.php" id="iniciar-sesion">INICIAR SESIÓN</a></button>
-            <button type="button" class="btn btn-outline-dark"><a href="#" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
+            <button type="button" class="btn btn-outline-dark"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
         </div>
     </section>
     <section class="">
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                    <p><i class="fas fa-home me-3"></i> Buenos Aires, AR 10012</p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        muebleria@example.com
-                    </p>
-                    <p><i class="fas fa-phone me-3"></i> + 011 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 011 234 567 89</p>
+                <div class="col-md-3 col-lg-2 col-xl-6 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h6>
+                    <p class = "parrafos"> <i class="bi bi-geo-alt"></i> Buenos Aires, 10012, AR</p>
+                    <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
+                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
+                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
         <a class="text-reset fw-bold">Muebleria.com</a>
     </div>
-    <!-- Copyright -->
 </footer>
 <!-- Footer -->
         <script src="assets/javascript/script.js"></script>
