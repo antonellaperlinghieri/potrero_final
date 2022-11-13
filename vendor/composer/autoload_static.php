@@ -18,7 +18,6 @@ class ComposerStaticInit7caf11635a9bf1b6e489d6e19a3fec63
         'D' => 
         array (
             'Doctrine\\Persistence\\' => 21,
-            'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
@@ -41,10 +40,6 @@ class ComposerStaticInit7caf11635a9bf1b6e489d6e19a3fec63
         'Doctrine\\Persistence\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/persistence/src/Persistence',
-        ),
-        'Doctrine\\Deprecations\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations',
         ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
