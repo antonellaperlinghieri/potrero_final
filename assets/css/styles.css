@@ -364,3 +364,10 @@ h6.text-uppercase.fw-bold.mb-4 {
     text-align: center;
 }
 
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 25px;
+    }
+}
