@@ -376,5 +376,6 @@ h6.text-uppercase.fw-bold.mb-4 {
     }
     .logo {
         width: 20%;
+        float: right;
     }
 }
