@@ -362,6 +362,7 @@ h6.text-uppercase.fw-bold.mb-4 {
 @media screen and (max-width: 400px) {
   .titulo-principal {
     font-size: 3em;
+
     }
     .title-productos {
         font-size: 3em;
@@ -370,6 +371,6 @@ h6.text-uppercase.fw-bold.mb-4 {
         font-size: 3em;
     }
     .banner {
-        width: 70%;
+        width: 80%;
     }
 }
