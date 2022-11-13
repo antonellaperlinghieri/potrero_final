@@ -361,12 +361,12 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 @media screen and (max-width: 400px) {
   .titulo-principal {
-    font-size: 2em;
+    font-size: 3em;
     }
     .title-productos {
-        font-size: 2em;
+        font-size: 3em;
     }
     .title {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
