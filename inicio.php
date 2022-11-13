@@ -21,7 +21,6 @@
 <header>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-  <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
     <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" alt="" srcset="" style = "width : 50%";> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
@@ -49,7 +48,6 @@
           <a class="nav-link" id = "link" href="#contactanos">CONTACTANOS</a>
         </li>
       </ul>
-    </div>
     </div>
   </div>
 </nav>
