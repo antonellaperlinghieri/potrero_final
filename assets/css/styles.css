@@ -366,7 +366,7 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   h1 {
     font-size: 25px;
     }
