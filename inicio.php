@@ -54,7 +54,7 @@
 </header>
 <div class="container" id = "inicio">
   <div class="row">
-    <div class=" col-6 ">
+    <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
       <h1 class= "titulo-principal">ENCONTRA TU CONFORT</h1>
     </div>
     <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
