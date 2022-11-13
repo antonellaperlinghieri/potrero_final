@@ -20,6 +20,6 @@
 
     # Return the HTML code for button
 
-    echo "<a href='$preference->sandbox_init_point'> COMPRAR </a>";
+    echo "<a href='$preference->sandbox_init_point'> Pagar </a>";
 
 ?>
