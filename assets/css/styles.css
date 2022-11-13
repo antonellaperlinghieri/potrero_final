@@ -381,4 +381,7 @@ nav.navbar.navbar-expand-lg.bg-light {
         width: 20%;
         float: right;
     }
+    nav.navbar.navbar-expand-lg.bg-light {
+        padding: 0;
+    }
 }
