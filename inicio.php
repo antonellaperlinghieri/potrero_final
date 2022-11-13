@@ -63,7 +63,9 @@
 </div>
 </div>
   <!-- CARDS -->
+  <div class="container">
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> ALGUNOS DE NUESTROS PRODUCTOS</h1>
+</div>
   <div class="container">
       <div class="row">
         <?php
