@@ -239,8 +239,7 @@
                     <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
-                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto">Seguinos en nuestras redes</h6>
-                    <button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fa fa-instagram"></i></button>
+                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto"><i class="fa fa-instagram"> Seguinos en nuestras redes </h6>
                 </div>
             </div>
         </div>
