@@ -67,7 +67,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="box-part text-center">
                     <i class="bi bi-credit-card-fill" aria-hidden="true"></i>
-                    <div class="title">
+                    <div class="title-3">
                         <h3>¡PAGÁ EN CUOTAS! </h3>
                     </div>
                     <div class="text">
@@ -78,7 +78,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="box-part text-center">
                     <i class="bi bi-truck-front-fill" aria-hidden="true"></i>
-                    <div class="title">
+                    <div class="title-3">
                         <h3> ENVÍOS GRATIS EN CABA </h3>
                     </div>
                     <div class="text">
@@ -89,7 +89,7 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="box-part text-center">
                     <i class="bi bi-shield-lock-fill" aria-hidden="true"></i>
-                    <div class="title">
+                    <div class="title-3">
                         <h3> SITIO SEGURO </h3>
                     </div>
                     <div class="text">
