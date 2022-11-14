@@ -60,6 +60,48 @@
         <img src="assets/imagenes/banner1.png" alt="" class = "banner" srcset="">
     </div>
 </section>
+
+<div class="box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center">
+                    <i class="bi bi-credit-card-fill" aria-hidden="true"></i>
+                    <div class="title">
+                        <h3>¡PAGÁ HASTA EN 3 CUOTAS SIN INTERÉS! </h3>
+                    </div>
+                    <div class="text">
+                        <span> Con tu tarjetas de crédito. </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center">
+                    <i class="bi bi-truck-front-fill" aria-hidden="true"></i>
+                    <div class="title">
+                        <h3> ENVÍOS GRATIS EN CABA </h3>
+                    </div>
+                    <div class="text">
+                        <span> Para compras de más de $50.000 </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center">
+                    <i class="bi bi-shield-lock-fill" aria-hidden="true"></i>
+                    <div class="title">
+                        <h3> SITIO SEGURO </h3>
+                    </div>
+                    <div class="text">
+                        <span> Protegemos tus datos </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
   <!-- CARDS -->
   <div class="container">
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> ALGUNOS DE NUESTROS PRODUCTOS</h1>
