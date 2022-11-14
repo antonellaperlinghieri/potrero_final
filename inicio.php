@@ -240,7 +240,7 @@
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
                     <h6 class="text-uppercase fw-bold mb-4" id = "contacto"> Seguinos en nuestras redes </h6>
-                    <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
