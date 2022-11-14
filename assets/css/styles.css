@@ -375,13 +375,5 @@ h6.text-uppercase.fw-bold.mb-4 {
     .title {
         font-size: 3em;
     }
-    .banner {
-        display: none;
-    }
-    .logo {
-        width: 20%;
-        float: right;
-        display: flex;
-        justify-content: center;
-    }
+
 }
