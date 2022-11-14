@@ -54,7 +54,7 @@
 </header>
 <section class="py-5 text-center" id = "sobre_nosotros">
     <div class="row py-lg-2">
-        <img src="assets/imagenes/banner.png" alt="" srcset="">
+        <img src="assets/imagenes/banner1.png" alt="" srcset="">
     </div>
 </section>
   <!-- CARDS -->
