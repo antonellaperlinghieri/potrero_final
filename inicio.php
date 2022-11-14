@@ -55,7 +55,7 @@
 <div class="container" id = "inicio">
   <div class="row">
     <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
-      <video src="banner.mp4"></video>
+      <video src="assets/imagenes/banner.mp4"></video>
     </div>
 </div>
 </div>
