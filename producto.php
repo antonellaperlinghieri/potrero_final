@@ -205,6 +205,10 @@
 </div>
 </div>
 </div>
+
+
+
+
 <!--MERCADO PAGO -->
 <?php
   require __DIR__ .  '/vendor/autoload.php';
