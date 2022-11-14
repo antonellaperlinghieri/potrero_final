@@ -223,6 +223,22 @@
 </section>
   </div>
 </div>
+<div class="container">
+<h1 class="title">CONTACTANOS</h1>
+<p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1"> EMAIL </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1"> ESCRIBE TU CONSULTA</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">ENVIAR</button>
+</form>
+</div>
 <!-- FOOTER -->
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
