@@ -11,9 +11,6 @@
 html {
     scroll-behavior: smooth;
 }
-.container {
-    margin: 64px;
-}
 
 .button {
     text-decoration: none;
