@@ -50,7 +50,7 @@
   </div>
 </nav>
 </header>
-        <div class="container" style = "margin: 8% ;">
+        <div class="container">
             <div class="row">
                     <div class="  col-lg-6 col-xl-6 mx-auto mb-4 ">
                         <div class="card" style="border: none;">
