@@ -7,7 +7,7 @@
 
     if(mysqli_num_rows($validar_login) > 0) {
         $_SESSION['usuario'] = $correo;
-        echo '<script> window.location =  "../assets/inicio.php";  </script>';
+        echo '<script> window.location =  "inicio.php";  </script>';
     }else {
         echo '
         <script>
