@@ -261,6 +261,10 @@ a#link {
     color:#000;
 }
 
+nav.navbar.navbar-expand-lg.bg-light {
+    padding: 10px;
+}
+
 /* BOTONES INICIAR Y CERRAR SESIÓN */
 
 a#iniciar-sesion {
@@ -355,9 +359,6 @@ h6.text-uppercase.fw-bold.mb-4 {
 .parrafos {
     font-size: 26px;
     text-align: center;
-}
-nav.navbar.navbar-expand-lg.bg-light {
-    padding: 0;
 }
 
 /* RESPONSIVE */
