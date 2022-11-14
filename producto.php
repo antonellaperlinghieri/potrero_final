@@ -60,7 +60,7 @@
                         <div class="card" style="border: none;">
                             <?php
                               // 1) Conexion
-                              include "assets/php/conexion.php";
+                              include "php/conexion.php";
                               $query='SELECT * FROM `productos` WHERE `id` = '.$_GET["id"];
                               // 3) Ejecutar la orden y obtenemos los registros
                               $datos= mysqli_query($conexion, $query);
@@ -129,7 +129,7 @@
       </div>
       <div class="modal-body" style = "margin: 12px;">
       <?php
-    include "assets/php/conexion.php";
+    include "php/conexion.php";
     mysqli_select_db($conexion,"qad7ort2fqaauzk2");
         // 2) Almacenamos los datos del envío GET
         // a) generar variables para el id a utilizar

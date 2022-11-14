@@ -33,14 +33,14 @@
                 <!-- FORMULARIO DE LOGIN Y REGISTRO-->
                 <div class="contenedor-login-register">
                     <!--LOGIN-->
-                    <form action="assets/php/login.php" method = "POST" class="formulario-login">
+                    <form action="php/login.php" method = "POST" class="formulario-login">
                         <h2>Iniciar Sesión</h2>
                         <input type="text" placeholder="correo_electronico" name = "correo">
                         <input type="password" placeholder="password" name = "password">
                         <button> Ingresar </button>
                     </form>
                     <!--REGISTRO-->
-                    <form action="assets/php/registro_usuario.php" method = "POST" class="formulario-register">
+                    <form action="php/registro_usuario.php" method = "POST" class="formulario-register">
                         <h2>Registrarse</h2>
                         <input type="text" placeholder="nombre_completo" name = "nombre_completo">
                         <input type="text" placeholder="correo_electronico" name = "correo">

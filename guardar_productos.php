@@ -1,5 +1,5 @@
 <?php 
-    include "assets/php/conexion.php";
+    include "php/conexion.php";
     $nombreproducto = $_POST['nombreproducto'];
 	$descripcion = $_POST ['descripcion'];
 	$precio = $_POST ['precio'];

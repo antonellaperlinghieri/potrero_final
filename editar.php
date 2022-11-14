@@ -33,7 +33,7 @@
         </header>
         <?php
           // 1) Conexion
-    include "assets/php/conexion.php";
+    include "php/conexion.php";
     $id = $_GET['id'];
     $consulta = "SELECT * FROM `productos` WHERE id = $id";
     $respuesta=mysqli_query($conexion, $consulta); 

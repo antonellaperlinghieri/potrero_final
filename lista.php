@@ -26,7 +26,7 @@
     </tr>
     <?php
     // 1) Conexion
-    include "assets/php/conexion.php";
+    include "php/conexion.php";
     mysqli_select_db($conexion, "tienda1");
 
     // 2) Preparar la orden SQL
