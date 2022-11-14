@@ -396,6 +396,6 @@ h6.text-uppercase.fw-bold.mb-4 {
     font-family: 'Roboto', sans-serif;
 }
 
-.btn#boton:hover {
+#button:hover {
     color: #fff;
 }
