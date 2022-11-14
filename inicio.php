@@ -52,9 +52,11 @@
   </div>
 </nav>
 </header>
-<div class="container" id = "inicio">
-      <video src="assets/imagenes/banner.mp4"></video>
-</div>
+<section class="py-5 text-center" id = "sobre_nosotros">
+    <div class="row py-lg-5">
+    <video src="assets/imagenes/banner.mp4"></video>
+    </div>
+</section>
   <!-- CARDS -->
   <div class="container">
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> ALGUNOS DE NUESTROS PRODUCTOS</h1>
