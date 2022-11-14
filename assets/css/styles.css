@@ -406,11 +406,9 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 .box-part{
     background:#F0FFFF;
-    
     padding:60px 10px;
     margin:30px 0px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .box-part:hover{
@@ -433,5 +431,5 @@ h6.text-uppercase.fw-bold.mb-4 {
 }
 
 .fa{
-     color:#00BFFF;
+     color:#ffff;
 }
