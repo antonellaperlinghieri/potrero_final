@@ -65,7 +65,6 @@
                                 ?>
                             <div class="card-body ">
                                 <h5 class="card-title"><?php  echo ucwords($reg['nombreproducto']);  ?></h5>
-                                <p class="card-text" style="color: gray;">Sofá de Relax | 3 cuerpos | Eléctrico</p>
                                 <div class="product-price">
                                     $
                                     <?php  echo ucwords($reg['precio']);  ?>
