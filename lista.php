@@ -13,7 +13,7 @@
 <body>
     <div class="container">
     <h1 class = "titulo">MUEBLERIA</h1>
-    <p>LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
+    <p class = "textos">LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
     <table class="table table-bordered border-primary">
     <tr>
         <th>ID</th>
@@ -24,6 +24,7 @@
         <th>IMAGEN1</th>
         <th>IMAGEN2</th>
     </tr>
+    <button type="button" class="btn btn-outline-dark"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
    </div>
     <?php
     // 1) Conexion
