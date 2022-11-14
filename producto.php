@@ -217,7 +217,7 @@
   $preference -> items = $productos;
   $preference -> save();
 ?>
-<div class="container">
+<div class="container" style = "margin: 0;">
 <div class="contenedor-btn"></div>
 </div>
 <script src="https://sdk.mercadopago.com/js/v2"></script>
