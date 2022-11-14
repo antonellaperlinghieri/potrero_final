@@ -45,10 +45,6 @@
         <li class="nav-item">
           <a class="nav-link" id = "link" href="#contactanos">CONTACTANOS</a>
         </li>
-        <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search"  aria-label="Search">
-        <button class="btn btn-outline-dark" type="submit">Buscar</button>
-      </form>
       </ul>
     </div>
   </div>
@@ -205,10 +201,6 @@
 </div>
 </div>
 </div>
-
-
-
-
 <!--MERCADO PAGO -->
 <?php
   require __DIR__ .  '/vendor/autoload.php';
