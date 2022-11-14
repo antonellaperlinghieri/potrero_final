@@ -53,9 +53,7 @@
 </nav>
 </header>
 <div class="container" id = "inicio">
-    <div class=" col-lg-12 col-xl-12 mx-auto mb-4 ">
       <video src="assets/imagenes/banner.mp4"></video>
-    </div>
 </div>
   <!-- CARDS -->
   <div class="container">
