@@ -47,6 +47,9 @@
         <li class="nav-item">
           <a class="nav-link" id = "link" href="#contactanos">CONTACTANOS</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" id = "link" href="lista.php">LISTA CON TODOS NUESTROS PRODUCTOS</a>
+        </li>
       </ul>
     </div>
   </div>
