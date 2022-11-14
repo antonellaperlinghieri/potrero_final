@@ -11,19 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-        <!-- MODAL DE EDICIÓN DE PRODUCTOS -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  LISTAR PRODUCTOS
-</button>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">LISTAR PRODUCTOS EN STOCK</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body" style = "margin: 12px;">
-      <table>
+    <h1>MUEBLERIA</h1>
+    <h2>Lista de productos</h2>
+    <p>La siguiente lista muestra los datos de los productos actualmente en stock.</p>
+    <table>
     <tr>
         <th>ID</th>
         <th>NOMBRE_PRODUCTO</th>
@@ -33,17 +24,6 @@
         <th>IMAGEN1</th>
         <th>IMAGEN2</th>
     </tr>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-        </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-
     <?php
     // 1) Conexion
     include "php/conexion.php";
