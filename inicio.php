@@ -68,7 +68,7 @@
                 <div class="box-part text-center">
                     <i class="bi bi-credit-card-fill" aria-hidden="true"></i>
                     <div class="title">
-                        <h3>¡PAGÁ HASTA EN 3 CUOTAS! </h3>
+                        <h3>¡PAGÁ EN CUOTAS! </h3>
                     </div>
                     <div class="text">
                         <span> Con tu tarjetas de crédito. </span>
