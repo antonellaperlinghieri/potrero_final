@@ -54,9 +54,7 @@
 </header>
 <section class="py-5 text-center" id = "sobre_nosotros">
     <div class="row py-lg-2">
-    <video controls autoplay>
-        <source src = "assets/imagenes/banner.mp4" type = "video/mp4">
-    </video>
+        <img src="assets/imagenes/banner.png" alt="" srcset="">
     </div>
 </section>
   <!-- CARDS -->
