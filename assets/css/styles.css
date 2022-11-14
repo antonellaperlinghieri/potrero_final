@@ -265,6 +265,10 @@ nav.navbar.navbar-expand-lg.bg-light {
     padding: 10px;
 }
 
+.navbar-toggler {
+    padding: -0.75rem .75rem;
+}
+
 /* BOTONES INICIAR Y CERRAR SESIÓN */
 
 a#iniciar-sesion {
@@ -363,12 +367,7 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 410px) {
-  .titulo-principal {
-    font-size: 3em;
-    margin: 3%;
-
-    }
+@media screen and (max-width: 450px) {
     .title-productos {
         font-size: 3em;
     }
