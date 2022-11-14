@@ -52,7 +52,7 @@
   </div>
 </nav>
 </header>
-<section class="py-5 ">
+<section class="py-5">
     <div class="row py-lg-2">
         <img src="assets/imagenes/banner1.png" alt="" class = "banner" srcset="">
     </div>
