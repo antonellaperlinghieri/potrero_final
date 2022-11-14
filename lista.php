@@ -24,7 +24,6 @@
         <th>IMAGEN1</th>
         <th>IMAGEN2</th>
     </tr>
-    <button type="button" class="btn btn-outline-dark"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
    </div>
     <?php
     // 1) Conexion
@@ -52,5 +51,6 @@
         </tr>
     <?php } ?>
     </table>
+    <button type="button" class="btn btn-outline-dark"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
 </body>
 </html>
