@@ -55,10 +55,7 @@
 <div class="container" id = "inicio">
   <div class="row">
     <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
-      <h1 class= "titulo-principal">ENCONTRA TU CONFORT</h1>
-    </div>
-    <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
-    <img src="assets/imagenes/banne2.png" class = "img-fluid" alt="" srcset="" >
+      <video src="banner.mp4"></video>
     </div>
 </div>
 </div>
