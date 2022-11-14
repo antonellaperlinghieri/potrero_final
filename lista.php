@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <h1 class = "titulo">MUEBLERIA</h1>
     <p>LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
     <table class="table table-bordered border-primary">
@@ -23,6 +24,7 @@
         <th>IMAGEN1</th>
         <th>IMAGEN2</th>
     </tr>
+   </div>
     <?php
     // 1) Conexion
     include "php/conexion.php";

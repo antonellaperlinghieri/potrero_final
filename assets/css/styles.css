@@ -389,3 +389,9 @@ h6.text-uppercase.fw-bold.mb-4 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+.textos {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
