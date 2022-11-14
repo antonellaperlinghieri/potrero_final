@@ -58,7 +58,7 @@
       <h1 class= "titulo-principal">ENCONTRA TU CONFORT</h1>
     </div>
     <div class=" col-lg-6 col-xl-6 mx-auto mb-4 ">
-    <img src="assets/imagenes/banne2.png" class = "banner" alt="" srcset="" >
+    <img src="assets/imagenes/banne2.png" class = "img-fluid" alt="" srcset="" >
     </div>
 </div>
 </div>
