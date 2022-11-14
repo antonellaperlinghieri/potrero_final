@@ -27,8 +27,7 @@
     <?php
     // 1) Conexion
     include "php/conexion.php";
-    mysqli_select_db($conexion, "tienda1");
-
+    mysqli_select_db($conexion,"qad7ort2fqaauzk2");
     // 2) Preparar la orden SQL
     // Sintaxis SQL SELECT
     // SELECT * FROM nombre_tabla
