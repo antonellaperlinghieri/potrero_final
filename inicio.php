@@ -91,11 +91,11 @@
 </section>
 <div class="container">
     <div class="row">
-        <div class="col" style=" margin-left: auto;">
-        <h1 class="title col-lg-6 col-xl-6 mx-auto mb-4">SOBRE NOSOTROS</h1>
-            Desde 1960, se ha convertido en un referente indiscutido a la hora de buscar diseño, calidad y confort. Durante más de 60 años nos hemos dedicado exclusivamente a fabricar y distribuir productos con la última tecnología, que
+        <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
+        <h1 class="title">SOBRE NOSOTROS</h1>
+          <p> Desde 1960, se ha convertido en un referente indiscutido a la hora de buscar diseño, calidad y confort. Durante más de 60 años nos hemos dedicado exclusivamente a fabricar y distribuir productos con la última tecnología, que
             brinden el máximo confort en movimiento. Contamos con una tienda de más de 3300 m², un espacio con la más amplia variedad de productos creados para el confort. La elección personalizada de la tapicería hace de cada producto una
-            pieza única.
+            pieza única.</p>
         </div>
         <div class="col-lg-6 col-xl-6 mx-auto mb-4 ">
             <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
