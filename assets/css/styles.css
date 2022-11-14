@@ -363,7 +363,7 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 410px) {
   .titulo-principal {
     font-size: 3em;
     margin: 3%;
