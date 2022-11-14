@@ -239,7 +239,6 @@
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
-            <button type="button" class="btn btn-outline-dark"><a href="index.php" id="iniciar-sesion">INICIAR SESIÓN</a></button>
             <button type="button" class="btn btn-outline-dark"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
         </div>
     </section>
