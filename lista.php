@@ -11,10 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>MUEBLERIA</h1>
-    <h2>Lista de productos</h2>
-    <p>La siguiente lista muestra los datos de los productos actualmente en stock.</p>
-    <table>
+    <h1 class = "titulo">MUEBLERIA</h1>
+    <p>LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
+    <table class="table table-bordered border-primary">
     <tr>
         <th>ID</th>
         <th>NOMBRE_PRODUCTO</th>
