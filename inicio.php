@@ -60,7 +60,6 @@
         <img src="assets/imagenes/banner1.png" alt="" class = "banner" srcset="">
     </div>
 </section>
-
 <div class="box">
     <div class="container">
         <div class="row">
@@ -100,7 +99,6 @@
         </div>
     </div>
 </div>
-
   <!-- CARDS -->
   <div class="container">
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> ALGUNOS DE NUESTROS PRODUCTOS</h1>
@@ -241,6 +239,7 @@
                     <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
+                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto">Seguinos en nuestras redes</h6>
                 </div>
             </div>
         </div>
