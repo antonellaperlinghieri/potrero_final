@@ -58,12 +58,12 @@
                 <button class="btn btn-danger" onclick="borrarProducto(<?php echo $reg['id']; ?>)">borrar</button>
             </div>
         </td>
-
         </tr>
     <?php } ?>
     </table>
     <button type="button" class="btn btn-outline-primary" id = "boton"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
     <script type="text/javascript">
+        <?php if ($_SESSION['usuario'] == "USUARIO_NO_ADMIN") { ?>
         function borrarProducto(id) {
             console.log(id);
             jQuery.ajax({
@@ -75,7 +75,7 @@
                 }
             });
         }
-
+        <?php } ?>
         function editarProducto(id) {
             window.location.href = "producto.php?id=" +id;
 

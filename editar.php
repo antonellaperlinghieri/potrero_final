@@ -50,7 +50,6 @@
         $imagen2 = $datos['imagen2']['name'];
         $ruta = $datos['imagen2']['tmp_name'];
         $destino = "assets/imagenes/" . $imagen2;
-
 ?>
 <!-- FORMULARIO-->
 <h2>MODIFICAR</h2>
@@ -88,6 +87,5 @@
      mysqli_query($conexion, $consulta);
      header("location : lista.php");
  } ?>
-
     </body>
 </html>
