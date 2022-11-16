@@ -224,7 +224,7 @@
   </div>
 </div>
 <div class="container">
-<h1 class="title">CONTACTANOS</h1>
+<h1 class="title" style = "text-align: center;">CONTACTANOS</h1>
 <p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
 <form>
   <div class="form-group">
