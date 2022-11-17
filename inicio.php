@@ -230,13 +230,12 @@
   <div class="form-group">
     <label for="exampleInputEmail1"> EMAIL </label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1"> ESCRIBE TU CONSULTA</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">ENVIAR</button>
+  <button type="submit" class="btn btn-primary" style = "margin: 10px;">ENVIAR</button>
 </form>
 </div>
 <!-- FOOTER -->
