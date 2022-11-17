@@ -1,4 +1,5 @@
 <?php
+include "php/conexion.php";
 $name = $_POST['name'];
 $from = $_POST['email'];
 $message = $_POST['mensaje']; 
