@@ -227,15 +227,15 @@
 include "php/conexion.php";
 
 if((isset($_POST['email']) && !empty($_POST['email']))
-&& (isset($_POST['mensaje']) && !empty($_POST['email']))){
+&& (isset($_POST['mensaje']) && !empty($_POST['mensaje']))){
 
 	$email = $_POST['email'];
 	$mensaje = $_POST['mensaje'];
 	$to = "TU-EMAIL@gmail.com";
 	$headers = "From : " . $email;
 	if( mail($to, $mensaje, $headers)){
-	$query = "INSERT INTO `formulario` ( email, mensaje) VALUES ('$email','$mensaje')";
-		$result = mysqli_query($conexion, $query);
+	$query = "INSERT INTO `formulario` (email, mensaje) VALUES ('$email','$mensaje')";
+		$resultado = mysqli_query($conexion, $query);
 		echo "<center>E-Mail Enviado con exito, nos pondremos en contacto con usted pronto.</center>";
 	}
 }
