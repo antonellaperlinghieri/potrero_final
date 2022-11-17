@@ -1,4 +1,17 @@
 <?php
+# Include the Autoloader (see "Libraries" for install instructions)
+require 'vendor/autoload.php';
+use Mailgun\Mailgun;
+# Instantiate the client.
+$mgClient = new Mailgun('bb81a44c4263d2a9030631b137b39948-2de3d545-47b30fe3');
+$domain = "sandbox84a3c56c18114327b1840baf23c3329e.mailgun.org";
+# Make the call to the client.
+$result = $mgClient->sendMessage($domain, array(
+	'from'	=> 'Excited User <'.$from.'>',
+	'to'	=> 'Baz <'.$to.'>',
+	'subject' => $subject,
+	'text'	=> $message
+));
 $name = $_POST['name'];
 $from = $_POST['email'];
 $message = $_POST['mensaje']; 
@@ -15,19 +28,7 @@ if (mail ($to, $subject, $body, $from)) {
 
 
 
-# Include the Autoloader (see "Libraries" for install instructions)
-require 'vendor/autoload.php';
-use Mailgun\Mailgun;
-# Instantiate the client.
-$mgClient = new Mailgun('bb81a44c4263d2a9030631b137b39948-2de3d545-47b30fe3');
-$domain = "sandbox84a3c56c18114327b1840baf23c3329e.mailgun.org";
-# Make the call to the client.
-$result = $mgClient->sendMessage($domain, array(
-	'from'	=> 'Excited User <'.$from.'>',
-	'to'	=> 'Baz <'.$to.'>',
-	'subject' => $subject,
-	'text'	=> $message
-));
+
 
 
 ?>
