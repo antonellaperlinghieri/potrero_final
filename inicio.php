@@ -226,7 +226,7 @@
 <div class="container">
 <h1 class="title" style = "text-align: center;">CONTACTANOS</h1>
 <p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
-<form method="POST" action="contacto.php" enctype="multipart/form-data>
+<form method="POST" action="contacto.php" enctype="multipart/form-data">
     <div class="form-group">
         <label for="exampleInputName"> NOMBRE </label>
         <input type="text" class="form-control" name = "name" id="exampleInputName" >
