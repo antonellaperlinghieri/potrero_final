@@ -5,13 +5,7 @@ $message = $_POST['mensaje'];
 $subject = "Mensaje desde la muebleria";
 $to = 'antonellaperlinghieri19988@gmail.com'; 
 
-$body = "De: $name\n E-Mail: $from\n Mensaje:\n $message";
 
-if (mail ($to, $subject, $body, $from)) { 
-    echo '<p style="color: #27ae60;">Your message has been sent!</p>';
-} else { 
-    echo '<p style="color: #c0392b;">Something went wrong, go back and try again!    </p>'; 
-}
 
 
 require 'vendor/autoload.php';
@@ -29,7 +23,7 @@ $mailer = Swift_Mailer::newInstance($transport);
 $message = Swift_Message::newInstance('Hello from Mailgun')
   ->setFrom(array($from => 'John Doe'))
   ->setTo(array($to => 'A third name'))
-  ->setBody("And that's another ace in the hole for the Mailgun dev!")
+  ->setBody($message)
   ;
 
 // Send the message
