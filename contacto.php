@@ -1,5 +1,4 @@
 <?php
-include "php/conexion.php";
 if (isset($_POST['submit'])) {
     //Obtenemos valores input formulario
     $name = $_POST['name'];
