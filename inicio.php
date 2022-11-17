@@ -223,28 +223,14 @@
 </section>
   </div>
 </div>
-<?php 
-include "php/conexion.php";
-
-if((isset($_POST['email']) && !empty($_POST['email']))
-&& (isset($_POST['mensaje']) && !empty($_POST['mensaje']))){
-
-	$email = $_POST['email'];
-	$mensaje = $_POST['mensaje'];
-	$to = "TU-EMAIL@gmail.com";
-	$headers = "From : " . $email;
-	if( mail($to, $mensaje, $headers)){
-	$query = "INSERT INTO `formulario` (email, mensaje) VALUES ('$email','$mensaje')";
-		$resultado = mysqli_query($conexion, $query);
-		echo "<center>E-Mail Enviado con exito, nos pondremos en contacto con usted pronto.</center>";
-	}
-}
-
-?>
 <div class="container">
 <h1 class="title" style = "text-align: center;">CONTACTANOS</h1>
 <p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
-<form method = "POST">
+<form method="POST" action="contacto.php">
+    <div class="form-group">
+        <label for="exampleInputName"> NOMBRE </label>
+        <input type="text" class="form-control" name = "name" id="exampleInputName" >
+    </div>
   <div class="form-group">
     <label for="exampleInputEmail1"> EMAIL </label>
     <input type="email" class="form-control" name = "email" id="exampleInputEmail1" aria-describedby="emailHelp">
