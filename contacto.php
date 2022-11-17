@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
     //Obtenemos valores input formulario
-    $nombre = $_POST['nAME'];
+    $name = $_POST['name'];
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
     $para = 'antonellaperlinghieri19988@gmail.com';
@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
     $headers .= "Content-type: text/html; charset=utf-8";
 
     //Componemos cuerpo correo.
-    $msjCorreo = "Nombre: " . $nombre;
+    $msjCorreo = "Nombre: " . $name;
     $msjCorreo .= "\r\n";
     $msjCorreo .= "Email: " . $email;
     $msjCorreo .= "\r\n";
