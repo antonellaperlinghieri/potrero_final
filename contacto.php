@@ -1,18 +1,33 @@
 <?php
-include "php/conexion.php";
-$name = $_POST['name'];
-$from = $_POST['email'];
-$message = $_POST['mensaje']; 
-$subject = "Mensaje desde la muebleria";
-$to = 'antonellaperlinghieri19988@gmail.com'; 
 
-$body = "De: $name\n E-Mail: $from\n Mensaje:\n $message";
+if (isset($_POST['submit'])) {
+    //Obtenemos valores input formulario
+    $nombre = $_POST['nAME'];
+    $email = $_POST['email'];
+    $mensaje = $_POST['mensaje'];
+    $para = 'antonellaperlinghieri19988@gmail.com';
 
-if (mail ($to, $subject, $body, $from)) { 
-    echo '<p style="color: #27ae60;">Your message has been sent!</p>';
-} else { 
-    echo '<p style="color: #c0392b;">Something went wrong, go back and try again!    </p>'; 
+    //Creamos cabecera.
+    $headers = 'From' . " " . $email . "\r\n";
+    $headers .= "Content-type: text/html; charset=utf-8";
+
+    //Componemos cuerpo correo.
+    $msjCorreo = "Nombre: " . $nombre;
+    $msjCorreo .= "\r\n";
+    $msjCorreo .= "Email: " . $email;
+    $msjCorreo .= "\r\n";
+    $msjCorreo .= "Mensaje: " . $mensaje;
+    $msjCorreo .= "\r\n";
+
+  if (mail($para, $msjCorreo, $headers)) {
+       echo "<script language='javascript'>
+          alert('Mensaje enviado, muchas gracias.');
+       </script>";
+  } else {
+       echo "<script language='javascript'>
+          alert('fallado');
+       </script>";
+  }
 }
-
 
 ?>
