@@ -223,17 +223,35 @@
 </section>
   </div>
 </div>
+<?php 
+include "php/conexion.php";
+
+if((isset($_POST['email']) && !empty($_POST['email']))
+&& (isset($_POST['mensaje']) && !empty($_POST['email']))){
+
+	$email = $_POST['email'];
+	$mensaje = $_POST['mensaje'];
+	$to = "TU-EMAIL@gmail.com";
+	$headers = "From : " . $email;
+	if( mail($to, $mensaje, $headers)){
+	$query = "INSERT INTO `formulario` ( email, mensaje) VALUES ('$email','$mensaje')";
+		$result = mysqli_query($conexion, $query);
+		echo "<center>E-Mail Enviado con exito, nos pondremos en contacto con usted pronto.</center>";
+	}
+}
+
+?>
 <div class="container">
 <h1 class="title" style = "text-align: center;">CONTACTANOS</h1>
 <p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
-<form>
+<form method = "POST">
   <div class="form-group">
     <label for="exampleInputEmail1"> EMAIL </label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" name = "email" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1"> ESCRIBE TU CONSULTA</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" name = "mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <button type="submit" class="btn btn-primary" style = "margin: 10px;">ENVIAR</button>
 </form>
