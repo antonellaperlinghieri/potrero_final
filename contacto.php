@@ -13,4 +13,21 @@ if (mail ($to, $subject, $body, $from)) {
     echo '<p style="color: #c0392b;">Something went wrong, go back and try again!    </p>'; 
 }
 
+
+
+# Include the Autoloader (see "Libraries" for install instructions)
+require 'vendor/autoload.php';
+use Mailgun\Mailgun;
+# Instantiate the client.
+$mgClient = new Mailgun('bb81a44c4263d2a9030631b137b39948-2de3d545-47b30fe3');
+$domain = "https://muebleriaanto.herokuapp.com/";
+# Make the call to the client.
+$result = $mgClient->sendMessage($domain, array(
+	'from'	=> 'Excited User <'.$from.'>',
+	'to'	=> 'Baz <'.$to.'>',
+	'subject' => $subject,
+	'text'	=> $message
+));
+
+
 ?>
