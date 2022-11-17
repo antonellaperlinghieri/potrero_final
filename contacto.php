@@ -21,11 +21,11 @@ require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 # Instantiate the client.
 $mgClient = new Mailgun('bb81a44c4263d2a9030631b137b39948-2de3d545-47b30fe3');
-$domain = "https://api. mailgun.net/v3/ sandbox84a3c56c18114327b1840baf23c3329e.mailgun.org";
+$domain = "https://api.mailgun.net/v3/sandbox84a3c56c18114327b1840baf23c3329e.mailgun.org";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
-	'from'	=> $from,
-	'to'	=> $to,
+	'from'	=> 'Excited User <'.$from.'>',
+	'to'	=> 'Baz <'.$to.'>',
 	'subject' => $subject,
 	'text'	=> $message
 ));
