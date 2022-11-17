@@ -20,13 +20,9 @@ if (isset($_POST['submit'])) {
     $msjCorreo .= "\r\n";
 
   if (mail($para, $msjCorreo, $headers)) {
-       echo "<script language='javascript'>
-          alert('Mensaje enviado, muchas gracias.');
-       </script>";
+       echo "mensaje enviado";
   } else {
-       echo "<script language='javascript'>
-          alert('fallado');
-       </script>";
+       echo "fallo";
   }
 }
 
