@@ -239,7 +239,9 @@
     <label for="exampleFormControlTextarea1"> ESCRIBE TU CONSULTA</label>
     <textarea class="form-control" name = "mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary" style = "margin: 10px;">ENVIAR</button>
+  <div class="form-group">
+        <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="Enviar" />
+     </div>                      
 </form>
 </div>
 <!-- FOOTER -->
