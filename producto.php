@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
     </head>
     <body>
-      <!-- MENU -->
     <header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
