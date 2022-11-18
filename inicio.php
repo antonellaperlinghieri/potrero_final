@@ -9,6 +9,7 @@
     <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.form.io/formiojs/formio.full.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -223,27 +224,6 @@
 </section>
   </div>
 </div>
-<div class="container">
-<h1 class="title" style = "text-align: center;">CONTACTANOS</h1>
-<p class = "textos">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
-<form method="POST" action="contacto.php" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="exampleInputName"> NOMBRE </label>
-        <input type="text" class="form-control" name = "name" id="exampleInputName" >
-    </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1"> EMAIL </label>
-    <input type="email" class="form-control" name = "email" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1"> ESCRIBE TU CONSULTA</label>
-    <textarea class="form-control" name = "mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="form-group">
-        <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="Enviar" />
-     </div>                      
-</form>
-</div>
 <!-- FOOTER -->
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
@@ -267,12 +247,14 @@
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text-reset fw-bold">Muebleria.com</a>
+        <a class="text-reset fw-bold">muebleria.com</a>
     </div>
 </footer>
 <!-- Footer -->
 <script src="assets/javascript/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!--FORM.IO -->
+<script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
 </body>
 </html>
