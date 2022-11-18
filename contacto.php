@@ -1,17 +1,30 @@
 <?php
-# Include the Autoloader (see "Libraries" for install instructions)
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 use Mailgun\Mailgun;
+if ($_POST['submit']) {
+    //Obtenemos valores input formulario
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $mensaje = $_POST['mensaje'];
+    $para = 'antonellaperlinghieri19988@gmail.com';
 
-# Instantiate the client.
-$mgClient = new Mailgun('fb12fa0ecd924e366a7a1c1b39261cf5-2de3d545-16924a94');
-$domain = "sandbox135942d4cc284493910e6dfaab12dfce.mailgun.org";
+    //Creamos cabecera.
+    $headers = 'From' . " " . $email . "\r\n";
+    $headers .= "Content-type: text/html; charset=utf-8";
 
-# Make the call to the client.
-$result = $mgClient->sendMessage("$domain",
-	array('from'    => 'Mailgun Sandbox <postmaster@sandbox135942d4cc284493910e6dfaab12dfce.mailgun.org>',
-		  'to'      => 'Heroku <app284077190@heroku.com>',
-		  'subject' => 'Hello Heroku',
-		  'template'    => 'antonella',
-		  'h:X-Mailgun-Variables'    => '{"test": "test"}'));
+    //Componemos cuerpo correo.
+    $msjCorreo = "Nombre: " . $name;
+    $msjCorreo .= "\r\n";
+    $msjCorreo .= "Email: " . $email;
+    $msjCorreo .= "\r\n";
+    $msjCorreo .= "Mensaje: " . $mensaje;
+    $msjCorreo .= "\r\n";
+
+  if (mail($para, $msjCorreo, $headers)) {
+       echo "mensaje enviado";
+  } else {
+       echo "fallo";
+  }
+}
+
 ?>
