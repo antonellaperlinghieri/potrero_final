@@ -1,28 +1,23 @@
 <?php
-if ($_POST['submit']) {
-    //Obtenemos valores input formulario
+require '../vendor/autoload.php';
+use Mailgun\Mailgun;
+session_start();
+if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $mensaje = $_POST['mensaje'];
-    $para = 'antonellaperlinghieri19988@gmail.com';
-
-    //Creamos cabecera.
-    $headers = 'From' . " " . $email . "\r\n";
-    $headers .= "Content-type: text/html; charset=utf-8";
-
-    //Componemos cuerpo correo.
-    $msjCorreo = "Nombre: " . $name;
-    $msjCorreo .= "\r\n";
-    $msjCorreo .= "Email: " . $email;
-    $msjCorreo .= "\r\n";
-    $msjCorreo .= "Mensaje: " . $mensaje;
-    $msjCorreo .= "\r\n";
-
-  if (mail($para, $msjCorreo, $headers)) {
-       echo "mensaje enviado";
-  } else {
-       echo "fallo";
-  }
+    $message =  $_POST['mensaje'];
+    # Instantiate the client.
+    $mgClient = new Mailgun('fb12fa0ecd924e366a7a1c1b39261cf5-2de3d545-16924a94');
+    $domain = "https://muebleriaanto.herokuapp.com/";
+    # Make the call to the client.
+    $result = $mgClient->sendMessage($domain, array(
+        'from'    => $name . ' <' . $email . '>',
+        'to'      => 'antonellaperlinghieri19988@gmail.com',
+        'subject' => 'MENSAJE ENVIADO CON EXITO',
+        'text'    => $message
+    ));
 }
+session_destroy();
+?>
 
 ?>
