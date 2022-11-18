@@ -82,7 +82,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- CAROUSEL -->
                     <div class=" col-lg-6 col-xl-6 mx-auto mb-4  ">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -140,6 +139,7 @@
         $respuesta=mysqli_query ($conexion, $consulta);
         // 5) Transformamos el registro obtenido a un array
         $datos=mysqli_fetch_array($respuesta);
+        // 6) asignamos a diferentes variables los respectivos valores del array $datos.
         $nombreproducto=$datos['nombreproducto'];
         $descripcion=$datos['descripcion'];
         $precio=$datos['precio'];
@@ -166,7 +166,11 @@
             <button type="submit" class= "btn btn-primary" name="Cancelar" formaction="lista.php">Cancelar</button>
         </form>
         <?php
+        // Si en la variable constante $_POST existe un indice llamado 'guardar_cambios' ocurre el bloque de instrucciones.
         if(array_key_exists('guardar_cambios',$_POST)){
+            // 2') Almacenamos los datos actualizados del envío POST
+            // a) generar variables para cada dato a almacenar en la bbdd
+            // Si se desea almacenar una imagen en la base de datos usar lo siguiente:
             $nombreproducto = $_POST['nombreproducto'];
             $descripcion = $_POST ['descripcion'];
             $precio = $_POST ['precio'];
@@ -179,17 +183,24 @@
             $imagen2 = $_FILES['imagen2']['name'];
             $ruta = $_FILES['imagen2']['tmp_name'];
             $destino = "assets/imagenes/".$imagen2;
-            $consulta = "UPDATE productos SET nombreproducto='$nombreproducto', descripcion='$descripcion', precio='$precio', imagen='$imagen', imagen1='$imagen1', imagen2 = '$imagen2' WHERE id=$id";
+            // 3') Preparar la orden SQL
+            // "UPDATE tabla SET campo1='valor1', campo2='valor2', campo3='valor3', campo3='valor3', campo3='valor3' WHERE campo_clave=valor_clave"
+            // a) generar la consulta a realizar
+             $consulta = "UPDATE productos SET nombreproducto='$nombreproducto', descripcion='$descripcion', precio='$precio', imagen='$imagen', imagen1='$imagen1', imagen2 = '$imagen2' WHERE id=$id";
+            // 4') Ejecutar la orden y actualizamos los datos
+            // a) ejecutar la consulta
             mysqli_query($conexion,$consulta);
+            // a) rederigir a index
           } ?>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
       </div>
-      </div>
+        </div>
     </div>
   </div>
 </div>
-
+</div>
+</div>
 <!--MERCADO PAGO -->
 <?php
   require __DIR__ .  '/vendor/autoload.php';
