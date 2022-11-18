@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
     <!--CHATCOMPOSER -->
     <link href="https://trial.chatcompose.com/static/trial/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">    
-<script async type="text/javascript" src="https://trial.chatcompose.com/static/trial/all/global/export/js/main.a7059cb5.js?user=trial_antonellaP&lang=ES" user="trial_antonellaP" lang="ES"></script>  
+    <script async type="text/javascript" src="https://trial.chatcompose.com/static/trial/all/global/export/js/main.a7059cb5.js?user=trial_antonellaP&lang=ES" user="trial_antonellaP" lang="ES"></script>  
 </head>
 <body>
     <!-- MENU Y BANNER -->
