@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 session_start();
 if(isset($_POST['submit'])){
@@ -17,5 +17,4 @@ if(isset($_POST['submit'])){
         'text'    => $message
     ));
 }
-session_destroy();
 ?>
