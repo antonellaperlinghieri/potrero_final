@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['submit'])) {
+if ($_POST['submit']) {
     //Obtenemos valores input formulario
     $name = $_POST['name'];
     $email = $_POST['email'];
