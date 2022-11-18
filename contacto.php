@@ -1,30 +1,9 @@
 <?php
-require '../vendor/autoload.php';
-use Mailgun\Mailgun;
-if ($_POST['submit']) {
-    //Obtenemos valores input formulario
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $mensaje = $_POST['mensaje'];
-    $para = 'antonellaperlinghieri19988@gmail.com';
+// Using default PHP curl library
+$ch = curl_init('https://realemail.expeditedaddons.com/?api_key=76IVPDCN329TQBMO9JF388AZ1420Y4ELR0UGH6SW15K5X7&email=antonellaperlinghieri19988@gmail.com.org&fix_typos=false');
 
-    //Creamos cabecera.
-    $headers = 'From' . " " . $email . "\r\n";
-    $headers .= "Content-type: text/html; charset=utf-8";
+$response = curl_exec($ch);
+curl_close($ch);
 
-    //Componemos cuerpo correo.
-    $msjCorreo = "Nombre: " . $name;
-    $msjCorreo .= "\r\n";
-    $msjCorreo .= "Email: " . $email;
-    $msjCorreo .= "\r\n";
-    $msjCorreo .= "Mensaje: " . $mensaje;
-    $msjCorreo .= "\r\n";
-
-  if (mail($para, $msjCorreo, $headers)) {
-       echo "mensaje enviado";
-  } else {
-       echo "fallo";
-  }
-}
-
+var_dump($response);
 ?>
