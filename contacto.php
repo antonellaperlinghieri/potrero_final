@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 $mgClient = new Mailgun('fb12fa0ecd924e366a7a1c1b39261cf5-2de3d545-16924a94');
 $domain = "sandbox135942d4cc284493910e6dfaab12dfce.mailgun.org";
