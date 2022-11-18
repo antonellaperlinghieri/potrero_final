@@ -26,7 +26,7 @@
         <th>IMAGEN</th>
         <th>IMAGEN1</th>
         <th>IMAGEN2</th>
-        <th>EDITAR</th>
+        <th>EDITAR/BORRAR</th>
     </tr>
    </div>
     <?php
