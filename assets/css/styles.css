@@ -59,7 +59,7 @@ main {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: #091129;
 }
 
 .caja-trasera div {
@@ -92,7 +92,7 @@ main {
 
 .caja-trasera button:hover {
     background: #fff;
-    color: #46A2FD;
+    color: #0f4070;
 }
 
 /* FORMULARIOS */
@@ -119,7 +119,7 @@ main {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46A2FD;
+    color: #091129;
 }
 
 .contenedor-login-register form input {
