@@ -54,7 +54,7 @@
 
         <div class="container">
             <div class="row">
-                    <div class="  col-lg-6 col-xl-6 mx-auto mb-4 ">
+                    <div class="col-lg-6 col-xl-6 mx-auto mb-4">
                         <div class="card" style="border: none;">
                             <?php
                               // 1) Conexion
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-lg-6 col-xl-6 mx-auto mb-4  ">
+                    <div class="col-lg-6 col-xl-6 mx-auto mb-4">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -218,7 +218,7 @@
   $preference -> items = $productos;
   $preference -> save();
 ?>
-<div class="contenedor-btn" style = "display: grid;"></div>
+<div class="contenedor-btn"></div>
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
   var public_key = 'TEST-5842c625-7611-41ac-95fe-13c0a4ef07f3';

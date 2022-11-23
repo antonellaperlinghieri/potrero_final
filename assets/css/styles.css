@@ -265,8 +265,6 @@ nav.navbar.navbar-expand-lg.bg-light {
     padding: 10px;
 }
 
-
-
 /* BOTONES INICIAR Y CERRAR SESIÓN */
 
 a#iniciar-sesion {
@@ -317,8 +315,6 @@ h5.descripcion {
 h5.medio-pago {
     font-weight: 800;
 }
-
-
 
 /* IMAGEN SILLA FLOTANTE */
 
@@ -425,4 +421,9 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 .text{
     margin:20px 0px;
+}
+
+.contenedor-btn {
+    display: flex;
+    margin-left: 10%;
 }
