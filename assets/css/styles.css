@@ -423,7 +423,9 @@ h6.text-uppercase.fw-bold.mb-4 {
     margin:20px 0px;
 }
 
+/* BOTON MERCADO PAGO */
 .contenedor-btn {
     display: flex;
     margin-left: 10%;
+    margin-bottom: 12px;
 }
