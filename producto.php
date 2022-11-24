@@ -24,11 +24,6 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" class="logo" alt="" srcset="" style="width: 50%; justify-content: center;" /> </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#inicio" id="link">INICIO</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
@@ -217,7 +212,7 @@
     }
   });
 </script> <!--FIN MERCADO PAGO -->
-   <!-- FOOTER -->
+  <!-- FOOTER -->
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
@@ -233,13 +228,14 @@
                     <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
+                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto"><a class="btn btn-pink btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="bi bi-instagram"></i></a> Seguinos en nuestras redes </h6>
                 </div>
             </div>
         </div>
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text-reset fw-bold">Muebleria.com</a>
+        <a class="text-reset fw-bold">muebleria.com</a>
     </div>
 </footer>
 <!-- Footer -->
