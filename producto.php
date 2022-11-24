@@ -115,8 +115,7 @@
         $imagen1=$datos['imagen1'];
         $imagen2=$datos['imagen2'];
         ?>
-        <h2>Modificar</h2>
-        <p>Ingrese los nuevos datos del producto.</p>
+        <p>INGRESE LOS NUEVOS DATOS DEL PRODUCTO.</p>
         <form action="" method="POST" enctype="multipart/form-data">
             <label style = "display: flex;">nombreproducto</label>
             <input type="text" name="nombreproducto" value="<?php echo "$nombreproducto"; ?>">
