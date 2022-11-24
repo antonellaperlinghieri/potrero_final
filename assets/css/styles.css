@@ -435,7 +435,7 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 /* BOTON INSTAGRAM */
 
-a.btn.btn-primary.btn-lg.btn-floating {
+.btn-primary {
     text-decoration: none;
     border-color: none;
 }
