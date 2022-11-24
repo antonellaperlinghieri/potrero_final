@@ -432,3 +432,10 @@ h6.text-uppercase.fw-bold.mb-4 {
     margin-left: 9%;
     margin-bottom: 12px;
 }
+
+/* BOTON INSTAGRAM */
+
+.btn-primary {
+    text-decoration: none;
+    border-color: none;
+}
