@@ -23,33 +23,10 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" class="logo" alt="" srcset="" style="width: 50%; justify-content: center;" /> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5259/5259005.png" alt="" width="20px" />
-                </span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#inicio" id="link">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="#productos">PRODUCTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="agregar.html">AGREGAR PRODUCTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="#sobre_nosotros">SOBRE NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="#galeria">GALERIA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="#contactanos">CONTACTANOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="link" href="lista.php">LISTA</a>
                     </li>
                 </ul>
             </div>
