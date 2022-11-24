@@ -435,7 +435,6 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 /* BOTON INSTAGRAM */
 
-.btn-primary {
-    text-decoration: none;
-    border-color: none;
+i.bi.bi-instagram {
+    color: white;
 }
