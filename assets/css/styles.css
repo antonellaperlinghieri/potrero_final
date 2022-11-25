@@ -445,6 +445,7 @@ a#cerrar-sesion:hover {
     color: #000;
 }
 
-.card.col-md-3.col-lg-4.col-xl-4.mx-auto.mb-4{
-    --mdb-card-border-width : none;
+.card {
+    --mdb-card-spacer-y:0;
+    --mdb-card-spacer-x:0;
 }
