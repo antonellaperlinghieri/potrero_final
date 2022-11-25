@@ -5,11 +5,11 @@
     $email = $_POST['email'];
   if (isset($_POST['message']))
     $message = $_POST['message'];
-  if ($name === '') {
+  if ($name == '') {
     echo "Name cannot be empty.";
     die();
   }
-  if ($email === '') {
+  if ($email == '') {
     echo "Email cannot be empty.";
     die();
   } else {
@@ -18,11 +18,7 @@
       die();
     }
   }
-  if ($subject === '') {
-    echo "Subject cannot be empty.";
-    die();
-  }
-  if ($message === '') {
+  if ($message == '') {
     echo "Message cannot be empty.";
     die();
   }
