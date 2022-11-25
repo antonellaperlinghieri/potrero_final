@@ -248,7 +248,7 @@
                     <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
-                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto"><a class="btn btn-pink btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="bi bi-instagram"></i></a> Seguinos en nuestras redes </h6>
+                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h6>
                 </div>
             </div>
         </div>
