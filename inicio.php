@@ -254,23 +254,18 @@
                     </div>
                     <!--Grid column-->
                     <!--Grid column-->
-                    <div class="col-md-6">
+                    <div class="row">
+                    <div class="col-md-12">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control" />
-                            <label for="email" class="">Tu Email</label>
+                        <input type="text" id="email" name="email" class="form-control" />
+                        <label for="email" class="">Tu Email</label>
                         </div>
                     </div>
+                </div>
                     <!--Grid column-->
                 </div>
                 <!--Grid row-->
                 <!--Grid row-->
-                <div class="col-md-12">
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Tu Mensaje</label>
-                        </div>
-                    </div>
-                </div>
                 <div class="row">
                 <!--Grid row-->
             </form>
