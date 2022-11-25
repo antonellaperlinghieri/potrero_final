@@ -78,16 +78,3 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
 })
 
-// ENVIO DE MAIL FORMULARIO DE CONSULTAS
-function sendEmail() {
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "antonellaperlinghieri25@gmail.com",
-        Password : "password",
-        To : 'antonellaperlinghieri19988@gmail.com',
-        From : document.getElementById('email').value,
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
