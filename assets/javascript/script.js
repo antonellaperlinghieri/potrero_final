@@ -79,15 +79,15 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 })
 
 // BUSCADOR DE PRODUCTOS
-const authorsearch = document.getElementById('authorsearch');
+const authorsearch = document.getElementById('#authorsearch');
 authorsearch.addEventListener('keyup', e => {
     let currentValue = e.target.value.toLowerCase();
     let authors = document.querySelectorAll('h3.card-title');
-    authors.forEach(author => {
-        if(author.textContent.toLowerCase().includes(currentValue)) {
-            author.parentNode.parentNode.style.display = 'block';
+    authors.forEach(card => {
+        if(card.textContent.toLowerCase().includes(currentValue)) {
+            card.parentNode.parentNode.style.display = 'block';
         } else {
-            author.parentNode.parentNode.style.display = 'none';
+            card.parentNode.parentNode.style.display = 'none';
         }
     });
 });
