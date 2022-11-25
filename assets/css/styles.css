@@ -441,6 +441,6 @@ i.bi.bi-instagram {
 }
 
 /* BOTON CERRAR SESION */
-button.btn.btn-outline-dark:hover {
+#cerrar-sesion:hover {
     color: #000;
 }
