@@ -250,7 +250,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <label for="name" class="">Nombre</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -258,7 +258,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
+                            <label for="email" class="">Email</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -268,8 +268,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" class="">Tu mensaje</label>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                     <div class="col-md-12">
                         <div class="md-form">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
+                            <label for="message"></label>
                         </div>
                     </div>
                 </div>
