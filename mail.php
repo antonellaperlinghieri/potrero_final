@@ -16,10 +16,6 @@
       exit();
     }
   }
-  if ($subject === '') {
-    print json_encode(array('message' => 'Subject cannot be empty', 'code' => 0));
-    exit();
-  }
   if ($message === '') {
     print json_encode(array('message' => 'Message cannot be empty', 'code' => 0));
     exit();
