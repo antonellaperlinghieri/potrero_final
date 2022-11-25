@@ -18,7 +18,13 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <!--CHATCOMPOSER -->
     <link href="https://trial.chatcompose.com/static/trial/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">    
-    <script async type="text/javascript" src="https://trial.chatcompose.com/static/trial/all/global/export/js/main.a7059cb5.js?user=trial_antonellaP&lang=ES" user="trial_antonellaP" lang="ES"></script>  
+    <script async type="text/javascript" src="https://trial.chatcompose.com/static/trial/all/global/export/js/main.a7059cb5.js?user=trial_antonellaP&lang=ES" user="trial_antonellaP" lang="ES"></script> 
+    <!-- MdBOOTSTRAP --> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
 </head>
 <body>
     <!-- MENU Y BANNER -->
@@ -229,9 +235,8 @@
 </div>
 <!-- FORMULARIO DE CONSULTAS -->
 <section class="container mb-4">
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    <h2 class="h1-responsive font-weight-bold text-center my-4">CONTACTANOS</h2>
+    <p class="text-center w-responsive mx-auto mb-5">ENVIANOS TU CONSULTA Y TE RESPONDEREMOS A LA BREVEDAD.</p>
     <div class="row">
         <div class="col-md-9 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="" method="POST">
@@ -239,13 +244,13 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <label for="name" class="">Tu Nombre</label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
+                            <label for="email" class="">Tu Email</label>
                         </div>
                     </div>
                 </div>
@@ -261,7 +266,7 @@
                     <div class="col-md-12">
                         <div class="md-form">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
+                            <label for="message">Tu Consulta</label>
                         </div>
                     </div>
                 </div>
@@ -315,6 +320,10 @@
     </div>
 </footer>
 <!-- Footer -->
+<script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+<script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
 <script src="assets/javascript/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
