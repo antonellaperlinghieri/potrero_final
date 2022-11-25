@@ -276,7 +276,7 @@
                 <!--Grid row-->
             </form>
             <div class="text-center text-md-left">
-                <a class="btn btn-primary">ENVIAR CONSULTA</a>
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();" >ENVIAR CONSULTA</a>
             </div>
             <div class="status"></div>
         </div>
