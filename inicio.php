@@ -24,8 +24,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"
-/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
     <!-- MENU Y BANNER -->
@@ -35,7 +34,6 @@
     <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" class = "logo" alt="" srcset="" style = "width : 50%; justify-content: center;"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
-        <img src="https://cdn-icons-png.flaticon.com/512/5259/5259005.png" alt = "" width = "20px" >
       </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
