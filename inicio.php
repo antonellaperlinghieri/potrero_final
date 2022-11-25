@@ -106,10 +106,6 @@
   <!-- CARDS -->
   <div class="container">
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> NUESTROS PRODUCTOS</h1>
-  <div class="input-group">
-  <input type="search" class="form-control rounded" id = "authorsearch" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-  <button type="button" class="btn btn-outline-primary">BUSCAR PRODUCTO</button>
-</div>
 </div>
   <div class="container">
       <div class="row">

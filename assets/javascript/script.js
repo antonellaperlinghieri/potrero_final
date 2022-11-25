@@ -77,17 +77,3 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-title').text('New message to ' + recipient)
     modal.find('.modal-body input').val(recipient)
 })
-
-// BUSCADOR DE PRODUCTOS
-const authorsearch = document.getElementById('#authorsearch');
-authorsearch.addEventListener('keyup', e => {
-    let currentValue = e.target.value.toLowerCase();
-    let authors = document.querySelectorAll('h3.card-title');
-    authors.forEach(card => {
-        if(card.textContent.toLowerCase().includes(currentValue)) {
-            card.parentNode.parentNode.style.display = 'block';
-        } else {
-            card.parentNode.parentNode.style.display = 'none';
-        }
-    });
-});
