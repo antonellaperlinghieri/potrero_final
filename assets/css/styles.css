@@ -444,3 +444,7 @@ i.bi.bi-instagram {
 a#cerrar-sesion:hover {
     color: #000;
 }
+
+.card {
+    --mdb-card-spacer-y : none;
+}
