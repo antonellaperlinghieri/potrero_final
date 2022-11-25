@@ -121,7 +121,7 @@
         $datos= mysqli_query($conexion, $query);
         // 4) el while recorre todos los registros y genera una CARD PARA CADA UNA
         while ($reg = mysqli_fetch_array($datos)) {?>
-          <div class="author-card col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 " style = "border:none;">
+          <div class="card col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 " style = "border:none;">
             <img class="card-img-top img-responsive" src="assets/imagenes/<?php echo $reg['imagen'] ?>" alt="" ><h3 class="card-title"><?php echo ucwords($reg['nombreproducto']) ?></h3>
               <span>$ <?php echo $reg['precio']; ?></span>
               <a href = "producto.php?id=<?php echo $reg['id']; ?>" class = "link">Ver producto</a>
