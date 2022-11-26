@@ -719,7 +719,7 @@ a#cerrar-sesion:hover {
     display: block;
   }
 
-  .hero_area::after {
+  .hero_area {
     content: "";
     position: absolute;
     bottom: 0;
