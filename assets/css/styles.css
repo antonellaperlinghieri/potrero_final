@@ -726,6 +726,6 @@ a#cerrar-sesion:hover {
     right: 0;
     width: 45%;
     height: 100%;
-    background-image: url(../assets/imagenes/hero-side-bg.png);
+    background-image: url(../css/assets/imagenes/hero-side-bg.png);
     background-size: cover;
 }
