@@ -89,28 +89,16 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      The Latest
+                      ENCONTRA TU
                       <span>
-                        Furniture
+                        CONFORT
                       </span>
                     </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Read More
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact us
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="assets/imagenes/slider-img.png" alt="">
+                    <img src="assets/imagenes/slider.png" alt="">
                   </div>
                 </div>
               </div>
@@ -120,28 +108,19 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      The Latest
+                      12 CUOTAS
                       <span>
-                        Furniture
+                        SIN INTERES
                       </span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore
+                      SHOWROOM EN CABA CON TODOS LOS PRODUCTOS EXHIBIDOS.
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Read More
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact us
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="assets/imagenes/slider-img.png" alt="">
+                    <img src="assets/imagenes/sofa.png" alt="">
                   </div>
                 </div>
               </div>
@@ -151,28 +130,19 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      The Latest
+                      SOMOS
                       <span>
-                        Furniture
+                        FABRICANTES
                       </span>
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore
+                      ENVIOS A TODO EL PAIS.
                     </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Read More
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact us
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="assets/imagenes/slider-img.png" alt="">
+                    <img src="assets/imagenes/mesa.png" alt="">
                   </div>
                 </div>
               </div>
@@ -182,28 +152,16 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      The Latest
+                      FABRICAMOS LOS MUEBLES DE TUS SUEÑOS
                       <span>
                         Furniture
                       </span>
                     </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Read More
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact us
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="assets/imagenes/slider-img.png" alt="">
+                    <img src="assets/imagenes/sofa2.png" alt="">
                   </div>
                 </div>
               </div>
