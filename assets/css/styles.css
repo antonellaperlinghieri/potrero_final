@@ -718,3 +718,14 @@ a#cerrar-sesion:hover {
   .slider_section ol.carousel-indicators.indicator-2 li.active {
     display: block;
   }
+
+  .hero_area::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background-image: url(../assets/imagenes/hero-side-bg.png);
+    background-size: cover;
+}

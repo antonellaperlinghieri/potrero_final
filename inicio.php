@@ -110,7 +110,7 @@
                     <h1>
                       12 CUOTAS
                       <span>
-                        SIN INTERES
+                      SIN INTERES
                       </span>
                     </h1>
                     <p>
@@ -152,9 +152,9 @@
                 <div class="col-md-6">
                   <div class="detail-box">
                     <h1>
-                      FABRICAMOS LOS MUEBLES DE TUS SUEÑOS
+                      FABRICAMOS LOS MUEBLES DE TUS 
                       <span>
-                        Furniture
+                        SUEÑOS
                       </span>
                     </h1>
                   </div>
