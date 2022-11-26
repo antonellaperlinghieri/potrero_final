@@ -694,7 +694,7 @@ a#cerrar-sesion:hover {
   }
   
   .slider_section .carousel-indicators li.active {
-    background-color: #252525;
+    background-color: gray;
   }
   
   .slider_section ol.carousel-indicators.indicator-2 {
