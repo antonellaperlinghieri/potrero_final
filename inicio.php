@@ -64,7 +64,8 @@
   </div>
 </nav>
 </header>
-<section class="slider_section ">
+<!-- SLIDER -->
+<section class="slider_section " id = "inicio">
       <div class="number_box">
         <div>
           <ol class="carousel-indicators indicator-2">
