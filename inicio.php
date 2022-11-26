@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-md-6 img-container">
                   <div class="img-box">
-                    <img src="assets/imagenes/mesa.png" alt="">
+                    <img src="assets/imagenes/sofa3.png" alt="">
                   </div>
                 </div>
               </div>
