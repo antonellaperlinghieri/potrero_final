@@ -507,7 +507,10 @@ a#cerrar-sesion:hover {
   
   .slider_section .detail-box h1 {
     color: rgb(5, 9, 65);
-    text-transform: uppercase;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    font-size: 5em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
   }
   
   .slider_section .detail-box h1 span {
@@ -576,7 +579,7 @@ a#cerrar-sesion:hover {
   }
   
   .slider_section .img-container .img-box {
-    width: 250px;
+    width: 80%;
   }
   
   .slider_section .img-container .img-box img {
@@ -719,13 +722,3 @@ a#cerrar-sesion:hover {
     display: block;
   }
 
-  .hero_area {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 45%;
-    height: 100%;
-    background-image: url(./css/assets/imagenes/hero-side-bg.png);
-    background-size: cover;
-}
