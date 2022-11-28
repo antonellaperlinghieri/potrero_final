@@ -234,52 +234,39 @@
       </div>
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
-     <!-- About Start -->
-     <div class="container-fluid bg-light">
-        <div class="container">
+       <!-- Services Start -->
+       <div class="container-fluid py-5">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="d-flex flex-column align-items-center justify-content-center bg-primary h-100 py-5 px-3">
-                        <i class="flaticon-brickwall display-1 font-weight-normal text-secondary mb-3"></i>
-                        <h4 class="display-3 mb-3">25+</h4>
-                        <h1 class="m-0">Years Experience</h1>
-                    </div>
+                <div class="col-lg-6 pr-lg-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Awesome Services</h6>
+                    <h1 class="mb-4 section-title">Awesome Interior Designing Services For Your Home</h1>
+                    <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
+                    <a href="" class="btn btn-primary mt-3 py-2 px-4">View More</a>
                 </div>
-                <div class="col-lg-7 m-0 my-lg-5 pt-5 pb-5 pb-lg-2 pl-lg-5">
-                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Learn About Us</h6>
-                    <h1 class="mb-4 section-title">We Are The Best Interior Designing Firm In Your City</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <div class="row py-2">
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                            <i class="fa-sharp fa-solid fa-house"> <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1></i>
-                                <h5 class="text-truncate m-0">Project Planning</h5>
-                            </div>
+                <div class="col-lg-6 p-0 pt-5 pt-lg-0">
+                    <div class="owl-carousel service-carousel position-relative">
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Bedroom Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                            <i class="fa-solid fa-hand-holding-seedling"><h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1></i>
-                                <h5 class="text-truncate m-0">Exterior & Interior</h5>
-                            </div>
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-kitchen display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Kitchen Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                            <i class="fa-solid fa-hand-holding-seedling"><h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1></i>
-                                <h5 class="text-truncate m-0">Commercial Design</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center mb-4">
-                            <i class="fa-solid fa-loveseat"><h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1></i>
-                                <h5 class="text-truncate m-0">Residential Design</h5>
-                            </div>
+                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
+                            <h3 class="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
+                            <h5 class="mb-3">Bathroom Design</h5>
+                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Services End -->
     <section class="py-5 text-center" id = "sobre_nosotros">
     <div class="row py-lg-5">
         <img src=" assets/imagenes/banner.jpg" alt="" srcset="" />
