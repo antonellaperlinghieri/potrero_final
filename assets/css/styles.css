@@ -746,4 +746,11 @@ a#cerrar-sesion:hover {
     font-family: "Roboto", sans-serif;
 }
 
+input.btn.btn-info {
+    --mdb-btn-bg: #009ee3;
+    --mdb-btn-hover-bg: #009ee3;
+    --mdb-btn-focus-bg: #009ee3;
+    --mdb-btn-active-bg: #009ee3;
+}
+
 

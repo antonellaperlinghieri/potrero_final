@@ -145,8 +145,8 @@
             <input type="file" name="imagen1">
             <label style = "display: flex;" class = "text" >Imagen2</label>
             <input type="file" name="imagen2" >
-            <input type="submit" name="guardar_cambios" class= "btn btn-info" value="Guardar Cambios">
-            <button type="submit" class= "btn btn-info" name="Cancelar" formaction="lista.php">Cancelar</button>
+            <input type="submit" name="guardar_cambios" class= "btn btn-info" value="Guardar Cambios" style = "margin:10px;">
+            <button type="submit" class= "btn btn-info" name="Cancelar" formaction="lista.php" style = "margin:9px;">Cancelar</button>
         </form>
         <?php
         // Si en la variable constante $_POST existe un indice llamado 'guardar_cambios' ocurre el bloque de instrucciones.
