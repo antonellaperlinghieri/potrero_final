@@ -201,7 +201,6 @@
   $preference -> save();
 ?>
 <div class="contenedor-btn">
-<button type="submit" class="mercadopago-button" formmethod="post">COMPRAR</button>
 </div>
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
