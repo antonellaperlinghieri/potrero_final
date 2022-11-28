@@ -181,7 +181,7 @@
                         <h3>¡PAGÁ EN CUOTAS! </h3>
                     </div>
                     <div class="text">
-                        <span> CON TU TARJETA DE CRÉDITO. </span>
+                        <span style = "color:black;"> CON TU TARJETA DE CRÉDITO. </span>
                     </div>
                 </div>
             </div>
@@ -192,7 +192,7 @@
                         <h3> ENVÍOS GRATIS EN CABA </h3>
                     </div>
                     <div class="text">
-                        <span> PARA COMPRAS DE MÁS DE $50.000 </span>
+                        <span style = "color:black;" > PARA COMPRAS DE MÁS DE $50.000 </span>
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                         <h3> SITIO SEGURO </h3>
                     </div>
                     <div class="text">
-                        <span> PROTEGEMOS TUS DATOS </span>
+                        <span style = "color:black;"> PROTEGEMOS TUS DATOS </span>
                     </div>
                 </div>
             </div>
@@ -226,7 +226,7 @@
         while ($reg = mysqli_fetch_array($datos)) {?>
           <div class="card col-md-3 col-lg-4 col-xl-4 mx-auto mb-4 " style = "border:none;">
             <img class="card-img-top img-responsive" src="assets/imagenes/<?php echo $reg['imagen'] ?>" alt="" ><h3 class="card-title"><?php echo ucwords($reg['nombreproducto']) ?></h3>
-              <span>$ <?php echo $reg['precio']; ?></span>
+              <span style = "color:black;">$ <?php echo $reg['precio']; ?></span>
               <a href = "producto.php?id=<?php echo $reg['id']; ?>" class = "link">Ver producto</a>
             </a>
           </div>
