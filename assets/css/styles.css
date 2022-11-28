@@ -294,6 +294,11 @@ a.navbar-brand {
 
 button.btn.btn-info {
     color: white;
+    --mdb-btn-bg: #009ee3;
+    --mdb-btn-box-shadow: 0 4px 9px -4px #009ee3;
+    --mdb-btn-hover-bg: #009ee3;
+    --mdb-btn-focus-bg: #009ee3;
+    --mdb-btn-active-bg: #009ee3;
 }
 
 /* CAROUSEL */
