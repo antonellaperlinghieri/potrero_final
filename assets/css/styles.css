@@ -269,7 +269,7 @@ a:hover, a:focus {
 }
 
 a#link {
-    color:white;
+    color:#000;
 }
 
 nav.navbar.navbar-expand-lg.bg-light {
