@@ -24,6 +24,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- Font Awesome -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
@@ -234,26 +235,8 @@
       </div>
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
-    <section class="py-5 text-center" id = "sobre_nosotros">
-    <div class="row py-lg-5">
-        <img src=" assets/imagenes/banner.jpg" alt="" srcset="" />
-    </div>
-</section>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
-        <h1 class="title">SOBRE NOSOTROS</h1>
-          <p class = "text"> DESDE 1960, SE HA CONVERTIDO EN UN REFERENTE INDISCUTIDO A LA HORA DE BUSCAR DISEÑOS, CALIDAD Y CONFORT. DURANTE MÁS DE 60 AÑOS NOS HEMOS DEDICADO EXCLUSIVAMENTE A FABRICAR Y DISTRIBUIR PRODUCTOS CON LA ÚLTIMA TECNOLOGÍA, QUE
-            BRINDEN EL MÁXIMO CONFORT EN MOVIMIENTO. CONTAMOS CON UNA TIENDA DE MÁS DE 3300 M², UN ESPACIO CON LA MÁS AMPLIA VARIEDAD DE PRODUCTOS CREADOS PARA EL CONFORT. LA ELECCIÓN PERSONALIZADA DE LA TAPICERÍA HACE DE CADA PRODUCTO UNA
-            PIEZA ÚNICA.</p>
-        </div>
-        <div class="col-lg-6 col-xl-6 mx-auto mb-4 ">
-            <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
-        </div>
-    </div>
-</div>
- <!-- About Start -->
- <div class="container-fluid bg-light">
+     <!-- About Start -->
+     <div class="container-fluid bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -298,6 +281,24 @@
         </div>
     </div>
     <!-- About End -->
+    <section class="py-5 text-center" id = "sobre_nosotros">
+    <div class="row py-lg-5">
+        <img src=" assets/imagenes/banner.jpg" alt="" srcset="" />
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
+        <h1 class="title">SOBRE NOSOTROS</h1>
+          <p class = "text"> DESDE 1960, SE HA CONVERTIDO EN UN REFERENTE INDISCUTIDO A LA HORA DE BUSCAR DISEÑOS, CALIDAD Y CONFORT. DURANTE MÁS DE 60 AÑOS NOS HEMOS DEDICADO EXCLUSIVAMENTE A FABRICAR Y DISTRIBUIR PRODUCTOS CON LA ÚLTIMA TECNOLOGÍA, QUE
+            BRINDEN EL MÁXIMO CONFORT EN MOVIMIENTO. CONTAMOS CON UNA TIENDA DE MÁS DE 3300 M², UN ESPACIO CON LA MÁS AMPLIA VARIEDAD DE PRODUCTOS CREADOS PARA EL CONFORT. LA ELECCIÓN PERSONALIZADA DE LA TAPICERÍA HACE DE CADA PRODUCTO UNA
+            PIEZA ÚNICA.</p>
+        </div>
+        <div class="col-lg-6 col-xl-6 mx-auto mb-4 ">
+            <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
+        </div>
+    </div>
+</div>
 <!--GALERIA CAROUSEL -->
 <div class="container" id = "galeria">
    <div class="row">
