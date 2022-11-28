@@ -338,8 +338,7 @@ h5.medio-pago {
 .silla {
     -webkit-animation: bounce-down 1.6s linear infinite;
     animation: bounce-down 1.6s linear infinite;
-
-
+    margin-left: 26%;
 }
 
 @-webkit-keyframes bounce-down {
