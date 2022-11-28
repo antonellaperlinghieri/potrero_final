@@ -258,19 +258,19 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1>
+                            <i class="fa-solid fa-hand-holding-seedling"><h1 class="flaticon-stairs font-weight-normal text-primary m-0 mr-3"></h1></i>
                                 <h5 class="text-truncate m-0">Exterior & Interior</h5>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                            <i class="fa-solid fa-building"> <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1></i>
                                 <h5 class="text-truncate m-0">Commercial Design</h5>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1>
+                            <i class="fa-solid fa-loveseat"><h1 class="flaticon-living-room font-weight-normal text-primary m-0 mr-3"></h1></i>
                                 <h5 class="text-truncate m-0">Residential Design</h5>
                             </div>
                         </div>
