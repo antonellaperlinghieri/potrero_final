@@ -243,9 +243,9 @@
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
         <h1 class="title">SOBRE NOSOTROS</h1>
-          <p class = "text"> Desde 1960, se ha convertido en un referente indiscutido a la hora de buscar diseño, calidad y confort. Durante más de 60 años nos hemos dedicado exclusivamente a fabricar y distribuir productos con la última tecnología, que
-            brinden el máximo confort en movimiento. Contamos con una tienda de más de 3300 m², un espacio con la más amplia variedad de productos creados para el confort. La elección personalizada de la tapicería hace de cada producto una
-            pieza única.</p>
+          <p class = "text"> DESDE 1960, SE HA CONVERTIDO EN UN REFERENTE INDISCUTIDO A LA HORA DE BUSCAR DISEÑOS, CALIDAD Y CONFORT. DURANTE MÁS DE 60 AÑOS NOS HEMOS DEDICADO EXCLUSIVAMENTE A FABRICAR Y DISTRIBUIR PRODUCTOS CON LA ÚLTIMA TECNOLOGÍA, QUE
+            BRINDEN EL MÁXIMO CONFORT EN MOVIMIENTO. CONTAMOS CON UNA TIENDA DE MÁS DE 3300 M², UN ESPACIO CON LA MÁS AMPLIA VARIEDAD DE PRODUCTOS CREADOS PARA EL CONFORT. LA ELECCIÓN PERSONALIZADA DE LA TAPICERÍA HACE DE CADA PRODUCTO UNA
+            PIEZA ÚNICA.</p>
         </div>
         <div class="col-lg-6 col-xl-6 mx-auto mb-4 ">
             <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
@@ -346,10 +346,10 @@
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-2 col-xl-6 mx-auto mb-4">
                     <h1 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h1>
-                    <p class = "parrafos"> <i class="bi bi-geo-alt"></i> Buenos Aires, 10012, AR</p>
-                    <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
-                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
-                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
+                    <p class = "text"> <i class="bi bi-geo-alt"></i> BUENOS AIRES, 10012, AR</p>
+                    <p class = "text"> <i class="bi bi-envelope"></i> INFO@MUEBLERIA.COM</p>
+                    <p class = "text"> <i class="bi bi-phone"></i> 1145678920</p>
+                    <p class = "text"> <i class="bi bi-phone"></i> 1145654327</p>
                     <h1 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h1>
                 </div>
             </div>
@@ -357,7 +357,7 @@
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text-reset fw-bold">muebleria.com</a>
+        <a class="text-reset fw-bold">MUEBLERIA.COM</a>
     </div>
 </footer>
 <!-- Footer -->

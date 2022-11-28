@@ -311,16 +311,11 @@ div#carouselExampleIndicators{
 }
 
 /* CARDS PRODUCTOS */
-.card-title {
-    font-weight: 900;
-    font-size: 2.5rem;
-}
 
 .product-price {
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 25px;
     line-height: 1.5;
-    color: #091129;
+    color: #000;
 }
 
 h5.descripcion {
@@ -372,7 +367,8 @@ h1.text-uppercase.fw-bold.mb-4 {
 }
 
 .parrafos {
-    font-size: 23px;
+    font-size: 25px;
+    color: #000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
