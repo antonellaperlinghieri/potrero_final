@@ -301,6 +301,10 @@ a#cerrar-sesion:hover {
 a.navbar-brand {
     background-image: none;
 }
+
+button.btn.btn-info {
+    color: #009ee3;
+}
 /* CAROUSEL */
 
 div#carouselExampleIndicators{
