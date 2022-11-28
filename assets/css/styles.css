@@ -760,10 +760,7 @@ input.btn.btn-info {
 
 /* MODAL AGREGAR PRODUCTOS */
 
-a#button {
-    color: white;
-}
-button.btn.btn-info {
-    color: white;
+.btn-info {
+    --bs-btn-color: white;
 }
 
