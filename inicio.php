@@ -24,7 +24,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- Font Awesome -->
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
@@ -253,7 +252,7 @@
                     <div class="row py-2">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-4">
-                                <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1>
+                            <i class="fa-sharp fa-solid fa-house"> <h1 class="flaticon-house font-weight-normal text-primary m-0 mr-3"></h1></i>
                                 <h5 class="text-truncate m-0">Project Planning</h5>
                             </div>
                         </div>
