@@ -758,4 +758,9 @@ input.btn.btn-info {
     --mdb-btn-active-bg: #009ee3;
 }
 
+/* MODAL AGREGAR PRODUCTOS */
+
+a#button {
+    color: white;
+}
 
