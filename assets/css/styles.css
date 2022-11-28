@@ -279,19 +279,9 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 /* BOTONES INICIAR Y CERRAR SESIÓN */
 
-a#iniciar-sesion {
-    text-decoration: none;
-    color:#000;
-    background-image: none;
-    margin: 5px;
-}
-a#iniciar-sesion:hover {
-    color: #fff;
-}
-
 a#cerrar-sesion {
     text-decoration: none;
-    color:#009ee3;
+    color:white;
     background-image: none;
     margin: 5px;
 }
