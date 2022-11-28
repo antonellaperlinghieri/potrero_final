@@ -215,7 +215,7 @@
   <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> NUESTROS PRODUCTOS</h1>
 </div>
   <div class="container">
-      <div class="row">
+      <div class="row" style = "--mdb-gutter-x: 3.5rem;">
         <?php
         // 1) Conexion
         $conexion = mysqli_connect("h1use0ulyws4lqr1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "fdxnogh9ulra5ujq", "uycgjx70mu3k9vex", "qad7ort2fqaauzk2");
