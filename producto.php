@@ -200,7 +200,7 @@
   $preference -> items = $productos;
   $preference -> save();
 ?>
-<div class="contenedor-btn btn-primary"></div>
+<div class="contenedor-btn"></div>
 <script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
   var public_key = 'TEST-5842c625-7611-41ac-95fe-13c0a4ef07f3';

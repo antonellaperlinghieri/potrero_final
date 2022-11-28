@@ -433,6 +433,10 @@ h1.text-uppercase.fw-bold.mb-4 {
     margin-left: 9%;
     margin-bottom: 12px;
 }
+.mercadopago-button {
+    background:rgb(5, 9, 65) ;
+    font-family: 'Roboto', sans-serif;
+}
 
 /* BOTON INSTAGRAM */
 
