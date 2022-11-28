@@ -269,7 +269,7 @@ a:hover, a:focus {
 }
 
 a#link {
-    color:#000;
+    color:white;
 }
 
 nav.navbar.navbar-expand-lg.bg-light {
@@ -296,9 +296,6 @@ button.btn.btn-info {
     color: #009ee3;
 }
 
-button.btn.btn-info:hover {
-    color: white;
-}
 /* CAROUSEL */
 
 div#carouselExampleIndicators{
