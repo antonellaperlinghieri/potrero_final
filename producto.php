@@ -28,7 +28,7 @@
     <header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo.png" class="logo" alt="" srcset="" style="width: 50%; justify-content: center;" /> </a>
+            <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 50%; justify-content: center;" /> </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             </div>
         </div>
