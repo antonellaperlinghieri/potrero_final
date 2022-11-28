@@ -21,20 +21,20 @@ html {
 
 a.link {
     text-decoration: none;
-    border: 2px solid #009ee3 ;
+    border: 2px solid #009EE3 ;
     display: flow-root;
     text-align: center;
     background: transparent;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    color: #009ee3;
+    color: #009EE3;
     outline: none;
     transition: all 300ms;
 }
 
 a.link:hover {
-    background:#009ee3 ;
+    background:#009EE3 ;
     color: #fff;
 }
 
@@ -201,7 +201,7 @@ p.text-muted {
 }
 
 .title {
-    color:rgb(5, 9, 65) ;
+    color:#009EE3 ;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     font-size: 3em;
     font-weight: 900;
@@ -214,7 +214,7 @@ p.text-muted {
 .title-productos {
     display: flex;
     justify-content: center;
-    color: rgb(5, 9, 65);
+    color: #009EE3;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     font-size: 3em;
     font-weight: 900;
@@ -223,7 +223,7 @@ p.text-muted {
 
 .titulo-principal {
     padding: 5%;
-    color:rgb(5, 9, 65) ;
+    color:#009EE3 ;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     font-size: 3em;
     text-align: center;
@@ -293,7 +293,7 @@ a.navbar-brand {
 }
 
 button.btn.btn-info {
-    color: #009ee3;
+    color: white;
 }
 
 /* CAROUSEL */
@@ -388,7 +388,7 @@ h1.text-uppercase.fw-bold.mb-4 {
 /* ESTILOS LISTA.PHP */
 
 .titulo {
-    color:rgb(5, 9, 65) ;
+    color: #009EE3;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     font-size: 3em;
     font-weight: 900;
