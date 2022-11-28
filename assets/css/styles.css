@@ -231,6 +231,9 @@ p.text-muted {
     font-family: 'Roboto', sans-serif;
 }
 
+.row {
+--mdb-gutter-x: 4rem;
+}
 
 img.card-img-top.img-responsive {
     transition: transform .2s; 
@@ -735,6 +738,12 @@ a#cerrar-sesion:hover {
 
 .slider_section ol.carousel-indicators.indicator-2 li.active {
     display: block;
+}
+
+/* MODAL */
+
+.modal-title {
+    font-family: "Roboto", sans-serif;
 }
 
 

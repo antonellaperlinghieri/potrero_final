@@ -131,22 +131,22 @@
         $imagen1=$datos['imagen1'];
         $imagen2=$datos['imagen2'];
         ?>
-        <p>INGRESE LOS NUEVOS DATOS DEL PRODUCTO.</p>
+        <p class = "text">INGRESE LOS NUEVOS DATOS DEL PRODUCTO.</p>
         <form action="" method="POST" enctype="multipart/form-data">
-            <label style = "display: flex;">nombreproducto</label>
+            <label style = "display: flex;" class = "text">nombreproducto</label>
             <input type="text" name="nombreproducto" value="<?php echo "$nombreproducto"; ?>">
-            <label style = "display: flex;" >descripcion</label>
+            <label style = "display: flex;" class = "text" >descripcion</label>
             <input type="text" name="descripcion"  value="<?php echo "$descripcion"; ?>">
-            <label style = "display: flex;" >precio</label>
+            <label style = "display: flex;" class = "text" >precio</label>
             <input type="text" name="precio" value="<?php echo "$precio"; ?>">
-            <label style = "display: flex;" >Imagen</label>
+            <label style = "display: flex;" class = "text" >Imagen</label>
             <input type="file" name="imagen" placeholder="imagen">
-            <label style = "display: flex;" >Imagen1</label>
+            <label style = "display: flex;" class = "text">Imagen1</label>
             <input type="file" name="imagen1">
-            <label style = "display: flex;" >Imagen2</label>
+            <label style = "display: flex;" class = "text" >Imagen2</label>
             <input type="file" name="imagen2" >
-            <input type="submit" name="guardar_cambios" class= "btn btn-primary" value="Guardar Cambios" style = "margin : 12px">
-            <button type="submit" class= "btn btn-primary" name="Cancelar" formaction="lista.php">Cancelar</button>
+            <input type="submit" name="guardar_cambios" class= "btn btn-info" value="Guardar Cambios">
+            <button type="submit" class= "btn btn-info" name="Cancelar" formaction="lista.php">Cancelar</button>
         </form>
         <?php
         // Si en la variable constante $_POST existe un indice llamado 'guardar_cambios' ocurre el bloque de instrucciones.
