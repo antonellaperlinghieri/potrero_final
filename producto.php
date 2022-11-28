@@ -55,7 +55,7 @@
                                 </div>
                                 <hr />
                                 <h5 class="descripcion">DESCRIPCIÓN DEL PRODUCTO</h5>
-                                <p style="color: gray;">
+                                <p class = "text" style="color: black;">
                                     <?php  echo ucwords($reg['descripcion']);  ?>
                                 </p>
                                 <hr />
