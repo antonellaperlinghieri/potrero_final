@@ -181,7 +181,7 @@
                         <h3>¡PAGÁ EN CUOTAS! </h3>
                     </div>
                     <div class="text">
-                        <span style = "color:black;"> CON TU TARJETA DE CRÉDITO. </span>
+                        <span> CON TU TARJETA DE CRÉDITO. </span>
                     </div>
                 </div>
             </div>
@@ -192,7 +192,7 @@
                         <h3> ENVÍOS GRATIS EN CABA </h3>
                     </div>
                     <div class="text">
-                        <span style = "color:black;" > PARA COMPRAS DE MÁS DE $50.000 </span>
+                        <span> PARA COMPRAS DE MÁS DE $50.000 </span>
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                         <h3> SITIO SEGURO </h3>
                     </div>
                     <div class="text">
-                        <span style = "color:black;"> PROTEGEMOS TUS DATOS </span>
+                        <span> PROTEGEMOS TUS DATOS </span>
                     </div>
                 </div>
             </div>
