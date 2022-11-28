@@ -245,6 +245,12 @@
                     <a href="" class="btn btn-primary mt-3 py-2 px-4">View More</a>
                 </div>
                 <div class="col-lg-6 p-0 pt-5 pt-lg-0">
+                <a class="btn btn-info mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-info mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
                     <div class="owl-carousel service-carousel position-relative">
                         <div class="d-flex flex-column text-center bg-light mx-3 p-4">
                             <h3 class="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
