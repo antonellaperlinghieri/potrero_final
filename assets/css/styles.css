@@ -372,6 +372,9 @@ h6.text-uppercase.fw-bold.mb-4 {
     .title {
         font-size: 2em;
     }
+    .navbar-toggler {
+        padding: 0.38rem 0.75rem;
+    }
 
 }
 
