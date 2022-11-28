@@ -16,7 +16,7 @@
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style = "margin: 12px;" >
     AGREGAR PRODUCTO
   </button>
-  <button type="button" class="btn btn-outline-primary" id = "boton"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
+  <button type="button" class="btn btn-info" id = "boton"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -25,26 +25,26 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" style = "margin: 12px;">
-          <p>INGRESE LOS DATOS DEL PRODUCTO.</p>
+          <p class="text">INGRESE LOS DATOS DEL PRODUCTO.</p>
           <form method="POST" action="guardar_productos.php" enctype="multipart/form-data">
-            <label  style = "display: flex"> Nombre del producto </label>
+            <label  style = "display: flex" class="text"> Nombre del producto </label>
             <input type="text" name="nombreproducto" required />
-            <label  style = "display: flex" >Descripcion</label>
+            <label  style = "display: flex" class="text">Descripcion</label>
             <input type="text" name="descripcion" required />
-            <label  style = "display: flex" >Precio</label>
+            <label  style = "display: flex" class="text">Precio</label>
             <input type="text" name="precio" required />
-            <label  style = "display: flex" > Imagen </label>
+            <label  style = "display: flex" class="text"> Imagen </label>
             <input type="file" name="imagen" />
             <input type="submit" name="submit" value="Ingresar" />
-            <label  style = "display: flex" > Imagen1 </label>
+            <label  style = "display: flex" class="text"> Imagen1 </label>
             <input type="file" name="imagen1" />
             <input type="submit" name="submit" value="Ingresar" />
-            <label  style = "display: flex" > Imagen2 </label>
+            <label  style = "display: flex" class="text"> Imagen2 </label>
             <input type="file" name="imagen2" />
             <input type="submit" name="submit" value="Ingresar" />
         </form>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Cerrar</button>
         </div>
           </div>
       </div>

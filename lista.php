@@ -61,7 +61,7 @@
         </tr>
     <?php } ?>
     </table>
-    <button type="button" class="btn btn-outline-primary" id = "boton"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
+    <button type="button" class="btn btn-info" id = "boton"><a href="inicio.php" id="button" style = "text-decoration : none;">VOLVER AL INICIO</a></button>
     <script type="text/javascript">
         function borrarProducto(id) {
             console.log(id);
