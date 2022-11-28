@@ -367,12 +367,13 @@ h5.medio-pago {
     }
 
 h1.text-uppercase.fw-bold.mb-4 {
-    font-size: 3em;
+    font-size: 2em;
+    color: #000;
     text-align: center;
 }
 
 .parrafos {
-    font-size: 26px;
+    font-size: 23px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -416,7 +417,9 @@ h1.text-uppercase.fw-bold.mb-4 {
 
 a#button {
     color: white;
+    text-decoration: none;
 }
+
 .box-part{
     background:#fff;
     padding:30px 10px;
