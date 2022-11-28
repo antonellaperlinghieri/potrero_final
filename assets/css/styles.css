@@ -295,6 +295,10 @@ a.navbar-brand {
 button.btn.btn-info {
     color: #009ee3;
 }
+
+button.btn.btn-info:hover {
+    color: white;
+}
 /* CAROUSEL */
 
 div#carouselExampleIndicators{
