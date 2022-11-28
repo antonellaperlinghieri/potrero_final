@@ -367,10 +367,10 @@ h6.text-uppercase.fw-bold.mb-4 {
 
 @media screen and (max-width: 500px) {
     .title-productos {
-        font-size: 2em;
+        font-size: 3em;
     }
     .title {
-        font-size: 2em;
+        font-size: 3em;
     }
     .navbar-toggler {
         padding: 0.38rem 0.75rem;
@@ -454,7 +454,7 @@ a#cerrar-sesion:hover {
     height: calc(90% - 70px);
     display: -webkit-box;
     display: -ms-flexbox;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
