@@ -186,6 +186,11 @@ main {
 h3.card-title {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    color: #000;
+}
+
+h5.card-title {
+    color: #000;
 }
 
 p.text-muted {
@@ -204,6 +209,7 @@ p.text-muted {
 }
 .title-3 {
     font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 .title-productos {
     display: flex;
@@ -316,10 +322,12 @@ div#carouselExampleIndicators{
 
 h5.descripcion {
     font-weight: 800;
+    color: #000;
 }
 
 h5.medio-pago {
     font-weight: 800;
+    color: #000;
 }
 
 /* IMAGEN SILLA FLOTANTE */
