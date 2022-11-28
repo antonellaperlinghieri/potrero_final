@@ -215,6 +215,9 @@
     render: {
       container: '.contenedor-btn',
       label: 'COMPRAR',
+    },
+    theme: {
+      elementsColor: "rgb(5, 9, 65)";
     }
   });
 </script> <!--FIN MERCADO PAGO -->
@@ -229,12 +232,12 @@
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-2 col-xl-6 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h6>
+                    <h1 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h1>
                     <p class = "parrafos"> <i class="bi bi-geo-alt"></i> Buenos Aires, 10012, AR</p>
                     <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
                     <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
-                    <h6 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h6>
+                    <h1 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h1>
                 </div>
             </div>
         </div>
