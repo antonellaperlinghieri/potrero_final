@@ -217,7 +217,7 @@
       label: 'COMPRAR',
     },
     theme: {
-    headerColor: "#c0392b";
+    elementsColor: "#8e44ad";
     }
   });
 </script> <!--FIN MERCADO PAGO -->
