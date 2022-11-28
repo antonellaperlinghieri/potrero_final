@@ -97,7 +97,7 @@
                     <?php } ?>
       </div>
         <!-- MODAL DE EDICIÓN DE PRODUCTOS -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
   EDITAR PRODUCTO
 </button>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -223,7 +223,7 @@
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
-            <button type="button" class="btn btn-outline-dark"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
+            <button type="button" class="btn btn-info"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
         </div>
     </section>
     <section class="">
