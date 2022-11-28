@@ -28,7 +28,7 @@
     <header>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 50%; justify-content: center;" /> </a>
+            <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 20%; justify-content: center;" /> </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             </div>
         </div>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <!-- CAROUSEL -->
-                    <div class="col-lg-6 col-xl-6 mx-auto mb-4" style = "margin: 7%;">
+                    <div class="col-lg-6 col-xl-6 mx-auto mb-4">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
