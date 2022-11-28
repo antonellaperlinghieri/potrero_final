@@ -34,9 +34,9 @@
         </div>
     </nav>
 </header>
-        <div class="container">
+        <div class="container" style = "margin-top:10%">
             <div class="row">
-                    <div class="col-lg-6 col-xl-6 mx-auto mb-4" style = "margin-top: 24px;">
+                    <div class="col-lg-6 col-xl-6 mx-auto mb-4">
                         <div class="card" style="border: none;">
                             <?php
                               // 1) Conexion
@@ -219,11 +219,11 @@
     }
   });
 </script> <!--FIN MERCADO PAGO -->
-  <!-- FOOTER -->
+<!-- FOOTER -->
 <footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
-            <button type="button" class="btn btn-info"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
+            <button type="button" class="btn btn-info" data-mdb-ripple-color="white"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
         </div>
     </section>
     <section class="">
@@ -231,10 +231,10 @@
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-2 col-xl-6 mx-auto mb-4">
                     <h1 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h1>
-                    <p class = "parrafos"> <i class="bi bi-geo-alt"></i> Buenos Aires, 10012, AR</p>
-                    <p class = "parrafos"> <i class="bi bi-envelope"></i> info@muebleria.com</p>
-                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145678920</p>
-                    <p class = "parrafos"> <i class="bi bi-phone"></i> 1145654327</p>
+                    <p class = "text" style = "text-align:center;"> <i class="bi bi-geo-alt"></i> BUENOS AIRES, 10012, AR</p>
+                    <p class = "text" style = "text-align:center;"> <i class="bi bi-envelope"></i> INFO@MUEBLERIA.COM</p>
+                    <p class = "text" style = "text-align:center;"> <i class="bi bi-phone"></i> 1145678920</p>
+                    <p class = "text" style = "text-align:center;"> <i class="bi bi-phone"></i> 1145654327</p>
                     <h1 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h1>
                 </div>
             </div>
@@ -242,10 +242,9 @@
     </section>
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-        <a class="text-reset fw-bold">muebleria.com</a>
+        <a class="text-reset fw-bold">MUEBLERIA.COM</a>
     </div>
 </footer>
-<!-- Footer -->
         <script src="assets/javascript/script.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
