@@ -202,7 +202,9 @@ p.text-muted {
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
-
+.title-3 {
+    font-family: 'Roboto', sans-serif;
+}
 .title-productos {
     display: flex;
     justify-content: center;
@@ -266,6 +268,7 @@ a#link {
 
 nav.navbar.navbar-expand-lg.bg-light {
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* BOTONES INICIAR Y CERRAR SESIÓN */
@@ -360,6 +363,7 @@ h1.text-uppercase.fw-bold.mb-4 {
 .parrafos {
     font-size: 26px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* RESPONSIVE */
@@ -392,7 +396,7 @@ h1.text-uppercase.fw-bold.mb-4 {
 .textos {
     font-size: 30px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #button:hover {
@@ -424,6 +428,7 @@ h1.text-uppercase.fw-bold.mb-4 {
 
 .text{
     margin:20px 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* BOTON MERCADO PAGO */
@@ -724,7 +729,4 @@ a#cerrar-sesion:hover {
     display: block;
 }
 
-.text {
-    font-family: 'Montserrat', sans-serif;
-}
 
