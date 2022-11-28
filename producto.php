@@ -215,6 +215,9 @@
     render: {
       container: '.contenedor-btn',
       label: 'COMPRAR',
+    },
+    theme: {
+    headerColor: "#c0392b";
     }
   });
 </script> <!--FIN MERCADO PAGO -->
