@@ -231,9 +231,6 @@ p.text-muted {
     font-family: 'Roboto', sans-serif;
 }
 
-.row {
---mdb-gutter-x: 3.5rem;
-}
 
 img.card-img-top.img-responsive {
     transition: transform .2s; 
@@ -555,7 +552,6 @@ a#cerrar-sesion:hover {
 .slider_section .detail-box .btn-box .btn-1 {
     display: inline-block;
     padding: 6px 0;
-    background-color: #24d278;
     color: #ffffff;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -566,8 +562,6 @@ a#cerrar-sesion:hover {
 
 .slider_section .detail-box .btn-box .btn-1:hover {
     background-color: transparent;
-    border-color: #24d278;
-    color: #24d278;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -655,7 +649,6 @@ a#cerrar-sesion:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: #24d278;
     opacity: 1;
     border-radius: 100%;
     -webkit-transform: translate(-50%, -50%);
