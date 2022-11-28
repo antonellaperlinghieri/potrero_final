@@ -405,7 +405,7 @@ h1.text-uppercase.fw-bold.mb-4 {
 }
 
 .textos {
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -414,7 +414,9 @@ h1.text-uppercase.fw-bold.mb-4 {
     color: #fff;
 }
 
-
+a#button {
+    color: white;
+}
 .box-part{
     background:#fff;
     padding:30px 10px;
