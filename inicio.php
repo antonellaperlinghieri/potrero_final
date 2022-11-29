@@ -67,18 +67,23 @@
 <!-- SLIDER -->
 <section class="slider_section " id = "inicio">
       <div class="number_box">
-         <!-- Controls -->
-         <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+        <div>
+          <ol class="carousel-indicators indicator-2">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3">04</li>
+          </ol>
+        </div>
       </div>
       <div class="container">
+        <div id="carouselExampleIndicators"  class="carousel slide" data-ride="carousel" style = "width:100%;">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -163,6 +168,7 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
 <div class="box">
