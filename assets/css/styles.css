@@ -181,7 +181,7 @@ main {
         position: relative;
     }
 }
- /* CARDS */
+ /* CARDS  TITULOS */
 
 h3.card-title {
     font-family: 'Roboto', sans-serif;
@@ -753,5 +753,9 @@ input.btn.btn-info {
     --bs-btn-color: white;
 }
 
-
+.title-slider {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5em;
+}
 
