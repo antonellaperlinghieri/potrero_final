@@ -239,10 +239,8 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6 pr-lg-5">
-                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Awesome Services</h6>
-                    <h1 class="mb-4 section-title">Awesome Interior Designing Services For Your Home</h1>
-                    <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-                    <a href="" class="btn btn-primary mt-3 py-2 px-4">View More</a>
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">NUESTROS SERVICIOS</h6>
+                    <h1 class="mb-4 section-title" style = "color:black;">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
                 </div>
                 <div class="col-lg-6 p-0 pt-5 pt-lg-0">
                 <a class="btn btn-info mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -257,36 +255,17 @@
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/177146-1000-1332/Vtex-0A7A2078.jpg?v=637969402089430000">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_960_720.jpg">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/174518-1000-1332/Lampara-colgante-moderna-VIRGO-BLACK-_-BRONCE-Landmark-0.jpg?v=637769852893000000">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_960_720.jpg">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/176992-1000-1332/Hamaca-de-ratan-negro-KAY-BLACK-Landmark-01.jpg?v=637953181102170000 ">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x380" src=" https://mijormi.vteximg.com.br/arquivos/ids/167526-1000-1332/Landmark-Decor-CARDIFF-COBRE-RelojDePared-0.jpg?v=637483923263100000 ">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/157641-1000-1332/Landmark-Muebles-PRINCESS-2075X45X80-Cajonero-0.jpg?v=637063223964400000">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://mijormi.vteximg.com.br/arquivos/ids/168989-1000-1332/Landmark-Decor-TabaquilloGris-Espejo-1.jpg?v=637526234628900000 ">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_960_720.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -295,17 +274,36 @@
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/177116-1000-1332/Silla-de-comedor-pana-gris-pata-cromada-MALAIKA-DARK-GREY-Landmark-01.jpg?v=637963453149300000">
+                                        <img class="img-fluid" alt="100%x380" src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://mijormi.vteximg.com.br/arquivos/ids/172310-1000-1332/APLIQUE-DE-PARED-CROMADO-EDIE-BRILLANTE-Landmark-0.jpg?v=637637699866300000 ">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/09/22/11/55/kitchen-1687121_960_720.jpg">
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/162121-1000-1332/Landmark-Muebles-AsherCigar-Sillon-0.jpg?v=637318019930100000">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/11/23/14/29/living-room-1853203_960_720.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_960_720.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2015/12/05/23/38/nursery-1078923_960_720.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_960_720.jpg">
                                     </div>
                                 </div>
                             </div>
