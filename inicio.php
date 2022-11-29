@@ -238,11 +238,8 @@
        <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-6 pr-lg-5">
-                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">NUESTROS SERVICIOS</h6>
-                    <h1 class="mb-4 section-title" style = "color:black;">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
-                </div>
-                <div class="col-lg-6 p-0 pt-5 pt-lg-0">
+                    <h1 class="title" style = "color:black;">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
+                <div class="col-lg-6 p-0 pt-5 pt-lg-0" style = "width:100%;">
                 <a class="btn btn-info mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                     <i class="fa fa-arrow-left"></i>
                 </a>
