@@ -314,9 +314,6 @@
     </div>
     <!-- Services End -->
     <section class="py-5 text-center" id = "sobre_nosotros">
-    <div class="row py-lg-5">
-        <img src=" assets/imagenes/banner.jpg" alt="" srcset="" />
-    </div>
 </section>
 <div class="container">
     <div class="row">
