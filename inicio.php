@@ -238,7 +238,7 @@
        <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row">
-                    <h1 class="title" style = "color:black;">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
+                    <h1 class="title">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
                 <div class="col-lg-6 p-0 pt-5 pt-lg-0" style = "width:100%;">
                 <a class="btn btn-info mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                     <i class="fa fa-arrow-left"></i>
