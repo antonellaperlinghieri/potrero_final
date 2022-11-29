@@ -235,7 +235,6 @@
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
 <!-- Carousel wrapper -->
-<div class="container">
     <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
@@ -247,24 +246,24 @@
         <div class="carousel-inner">
             <!-- Single item -->
             <div class="carousel-item active">
-                <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="assets/imagenes/slider1.jpg" class="" alt="Sunset Over the City" />
+                <div class="carousel-caption d-none">
                     <h5>First slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
             </div>
             <!-- Single item -->
             <div class="carousel-item">
-                <img src="assets/imagenes/slider2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="assets/imagenes/slider2.jpg" class="" alt="Canyon at Nigh" />
+                <div class="carousel-caption d-none">
                     <h5>Second slide label</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
             <!-- Single item -->
             <div class="carousel-item">
-                <img src="assets/imagenes/slider3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="assets/imagenes/slider3.jpg" class="" alt="Cliff Above a Stormy Sea" />
+                <div class="carousel-caption d-none">
                     <h5>Third slide label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
@@ -297,7 +296,6 @@
             </div>
         </div>
     </div>
-</div>
 <!--GALERIA CAROUSEL -->
 <div class="container" id = "galeria">
    <div class="row">
