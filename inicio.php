@@ -235,62 +235,66 @@
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
 <!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <!-- Inner -->
-    <div class="carousel-inner">
-        <!-- Single item -->
-        <div class="carousel-item active">
-            <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-        </div>
-        <!-- Single item -->
-        <div class="carousel-item">
-            <img src="assets/imagenes/slider2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        <!-- Single item -->
-        <div class="carousel-item">
-            <img src="assets/imagenes/slider3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Inner -->
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<!-- Carousel wrapper -->
 <div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
-        <h1 class="title">SOBRE NOSOTROS</h1>
-          <p class = "text"> DESDE 1960, SE HA CONVERTIDO EN UN REFERENTE INDISCUTIDO A LA HORA DE BUSCAR DISEÑOS, CALIDAD Y CONFORT. DURANTE MÁS DE 60 AÑOS NOS HEMOS DEDICADO EXCLUSIVAMENTE A FABRICAR Y DISTRIBUIR PRODUCTOS CON LA ÚLTIMA TECNOLOGÍA, QUE
-            BRINDEN EL MÁXIMO CONFORT EN MOVIMIENTO. CONTAMOS CON UNA TIENDA DE MÁS DE 3300 M², UN ESPACIO CON LA MÁS AMPLIA VARIEDAD DE PRODUCTOS CREADOS PARA EL CONFORT. LA ELECCIÓN PERSONALIZADA DE LA TAPICERÍA HACE DE CADA PRODUCTO UNA
-            PIEZA ÚNICA.</p>
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="col-lg-6 col-xl-6 mx-auto mb-4 ">
-            <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="assets/imagenes/slider2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="assets/imagenes/slider3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Inner -->
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel wrapper -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-xl-6 mx-auto mb-4" style="margin-left: auto;">
+                <h1 class="title">SOBRE NOSOTROS</h1>
+                <p class="text">
+                    DESDE 1960, SE HA CONVERTIDO EN UN REFERENTE INDISCUTIDO A LA HORA DE BUSCAR DISEÑOS, CALIDAD Y CONFORT. DURANTE MÁS DE 60 AÑOS NOS HEMOS DEDICADO EXCLUSIVAMENTE A FABRICAR Y DISTRIBUIR PRODUCTOS CON LA ÚLTIMA
+                    TECNOLOGÍA, QUE BRINDEN EL MÁXIMO CONFORT EN MOVIMIENTO. CONTAMOS CON UNA TIENDA DE MÁS DE 3300 M², UN ESPACIO CON LA MÁS AMPLIA VARIEDAD DE PRODUCTOS CREADOS PARA EL CONFORT. LA ELECCIÓN PERSONALIZADA DE LA TAPICERÍA
+                    HACE DE CADA PRODUCTO UNA PIEZA ÚNICA.
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6 mx-auto mb-4">
+                <img src="assets/imagenes/smooth_armchair_1__1.png" alt="" width="70%" class="silla" />
+            </div>
         </div>
     </div>
 </div>
