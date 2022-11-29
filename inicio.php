@@ -251,22 +251,67 @@
                 <a class="btn btn-info mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
                     <i class="fa fa-arrow-right"></i>
                 </a>
-                    <div class="owl-carousel service-carousel position-relative">
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Bedroom Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
+                div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/177146-1000-1332/Vtex-0A7A2078.jpg?v=637969402089430000">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/174518-1000-1332/Lampara-colgante-moderna-VIRGO-BLACK-_-BRONCE-Landmark-0.jpg?v=637769852893000000">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/176992-1000-1332/Hamaca-de-ratan-negro-KAY-BLACK-Landmark-01.jpg?v=637953181102170000 ">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-kitchen display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Kitchen Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x380" src=" https://mijormi.vteximg.com.br/arquivos/ids/167526-1000-1332/Landmark-Decor-CARDIFF-COBRE-RelojDePared-0.jpg?v=637483923263100000 ">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/157641-1000-1332/Landmark-Muebles-PRINCESS-2075X45X80-Cajonero-0.jpg?v=637063223964400000">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://mijormi.vteximg.com.br/arquivos/ids/168989-1000-1332/Landmark-Decor-TabaquilloGris-Espejo-1.jpg?v=637526234628900000 ">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Bathroom Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est diam eos</p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/177116-1000-1332/Silla-de-comedor-pana-gris-pata-cromada-MALAIKA-DARK-GREY-Landmark-01.jpg?v=637963453149300000">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://mijormi.vteximg.com.br/arquivos/ids/172310-1000-1332/APLIQUE-DE-PARED-CROMADO-EDIE-BRILLANTE-Landmark-0.jpg?v=637637699866300000 ">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src=" https://mijormi.vteximg.com.br/arquivos/ids/162121-1000-1332/Landmark-Muebles-AsherCigar-Sillon-0.jpg?v=637318019930100000">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>
