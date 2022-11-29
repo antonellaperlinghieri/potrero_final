@@ -248,21 +248,21 @@
             <div class="carousel-item active">
                 <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
                 <div class="carousel-caption d-none d-md-block">
-                    <h2 style = "color:black;font-family:Roboto,sans-serif;">DESDE 1960 MARCANDO TENDENCIA</h2>
+                    <h2 class = "title-slider">DESDE 1960 MARCANDO TENDENCIA</h2>
                 </div>
             </div>
             <!-- Single item -->
             <div class="carousel-item">
                 <img src="assets/imagenes/slider2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
                 <div class="carousel-caption d-none d-md-block">
-                    <h2 style = "color:black;font-family:Roboto,sans-serif;">MUEBLES PARA TODOS LOS ESTILOS</h2>
+                    <h2 class = "title-slider">MUEBLES PARA TODOS LOS ESTILOS</h2>
                 </div>
             </div>
             <!-- Single item -->
             <div class="carousel-item">
                 <img src="assets/imagenes/slider3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
                 <div class="carousel-caption d-none d-md-block">
-                    <h2  style = "color:black;font-family:Roboto,sans-serif;">DISEÑOS A MEDIDA</h2>
+                    <h2 class = "title-slider">DISEÑOS A MEDIDA</h2>
                 </div>
             </div>
         </div>
