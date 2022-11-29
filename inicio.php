@@ -251,7 +251,7 @@
                 <a class="btn btn-info mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
                     <i class="fa fa-arrow-right"></i>
                 </a>
-                div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
