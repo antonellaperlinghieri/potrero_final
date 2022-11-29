@@ -234,85 +234,84 @@
       </div>
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
-       <!-- Services Start -->
-       <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row">
-                    <h1 class="title">IMPRESIONANTE SERVICIOS DE DISEÑOS DE INTERIORES PARA SU HOGAR</h1>
-                <div class="col-lg-6 p-0 pt-5 pt-lg-0" style = "width:100%;">
-                <a class="btn btn-info mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="btn btn-info mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_960_720.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x380" src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/09/22/11/55/kitchen-1687121_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/11/23/14/29/living-room-1853203_960_720.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2016/11/19/13/06/bed-1839183_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2015/12/05/23/38/nursery-1078923_960_720.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://cdn.pixabay.com/photo/2020/11/24/11/36/bedroom-5772286_960_720.jpg">
-                                    </div>
-                                </div>
-                            </div>
+    <div class="container">
+    <div class="row">
+        <!-- Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide" />
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Welcome to <strong>LOREM IPSUM</strong></span>
+                            </h2>
+                            <br />
+                            <h3>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                            </h3>
+                            <br />
+                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
                         </div>
                     </div>
+                    <!-- /header-text -->
                 </div>
+                <div class="item">
+                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide" />
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Welcome to LOREM IPSUM</span>
+                            </h2>
+                            <br />
+                            <h3>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                            </h3>
+                            <br />
+                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                        </div>
                     </div>
+                    <!-- /header-text -->
+                </div>
+                <div class="item">
+                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide" />
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>Welcome to LOREM IPSUM</span>
+                            </h2>
+                            <br />
+                            <h3>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                            </h3>
+                            <br />
+                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
+                        </div>
+                    </div>
+                    <!-- /header-text -->
                 </div>
             </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
         </div>
+        <!-- /carousel -->
     </div>
-    <!-- Services End -->
+</div>
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
