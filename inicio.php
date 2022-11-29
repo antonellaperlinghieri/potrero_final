@@ -67,11 +67,13 @@
 <!-- SLIDER -->
 <section class="slider_section " id = "inicio">
       <div class="number_box">
-           <!-- Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-mdb-target=" #carouselExampleIndicators" data-mdb-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+        <div>
+          <ol class="carousel-indicators indicator-2">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3">04</li>
+          </ol>
         </div>
       </div>
       <div class="container">
