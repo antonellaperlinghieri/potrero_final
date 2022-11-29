@@ -234,84 +234,53 @@
       </div>
     </div>
     <!-- SECCIÓN SOBRE NOSOTROS -->
-    <div class="container">
-    <div class="row">
-        <!-- Carousel -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide" />
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to <strong>LOREM IPSUM</strong></span>
-                            </h2>
-                            <br />
-                            <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br />
-                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div>
-                    <!-- /header-text -->
-                </div>
-                <div class="item">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide" />
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to LOREM IPSUM</span>
-                            </h2>
-                            <br />
-                            <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br />
-                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div>
-                    <!-- /header-text -->
-                </div>
-                <div class="item">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide" />
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to LOREM IPSUM</span>
-                            </h2>
-                            <br />
-                            <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br />
-                            <div class=""><a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div>
-                    <!-- /header-text -->
-                </div>
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
-        <!-- /carousel -->
+<!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <!-- Inner -->
+    <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+        </div>
+        <!-- Single item -->
+        <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <!-- Single item -->
+        <div class="carousel-item">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Inner -->
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
+<!-- Carousel wrapper -->
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
