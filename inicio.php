@@ -313,8 +313,6 @@
         </div>
     </div>
     <!-- Services End -->
-    <section class="py-5 text-center" id = "sobre_nosotros">
-</section>
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style=" margin-left: auto;">
