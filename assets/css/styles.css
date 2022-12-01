@@ -19,7 +19,7 @@ html {
     text-decoration: none;
 }
 
-.navbar {
+nav.navbar.navbar-expand-lg.bg-light {
     --mdb-navbar-brand-img-margin-right: 9.25rem;
 }
 a.link {
