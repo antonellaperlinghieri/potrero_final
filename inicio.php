@@ -240,8 +240,8 @@
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner col-md-6">
-        <div class="carousel-item active">
+    <div class="carousel-inner">
+        <div class="carousel-item active col-md-6">
             <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
             <div class="carousel-caption d-none d-md-block">
                 <h2 class="title-slider">DESDE 1960 MARCANDO TENDENCIA</h2>
