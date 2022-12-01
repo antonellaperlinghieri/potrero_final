@@ -32,12 +32,12 @@
             </nav>
         </header>
         <?php
-          // 1) Conexion
-    include "php/conexion.php";
-    $id = $_GET['id'];
-    $consulta = "SELECT * FROM `productos` WHERE id = $id";
-    $respuesta=mysqli_query($conexion, $consulta); 
-    $datos = mysqli_fetch_array($respuesta);
+        // 1) Conexion
+        include "php/conexion.php";
+        $id = $_GET['id'];
+        $consulta = "SELECT * FROM `productos` WHERE id = $id";
+        $respuesta = mysqli_query($conexion, $consulta);
+        $datos = mysqli_fetch_array($respuesta);
         $nombreproducto = $datos['nombreproducto'];
         $descripcion = $datos['descripcion'];
         $precio = $datos['precio'];

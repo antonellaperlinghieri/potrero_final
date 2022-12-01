@@ -1,39 +1,38 @@
 
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Productos</title>
-        <!-- ESTILOS CSS -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <!-- BOOTSTRAP-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
-        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-         <!-- MdBOOTSTRAP --> 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet"/>
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    </head>
-    <body>
-      <!-- MENU -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <!-- MdBOOTSTRAP -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+<!-- MENU -->
     <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 25%; justify-content: center;" /> </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 25%; justify-content: center;" /> </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
         <div class="container" style = "margin-top:10%">
             <div class="row">
                     <div class="col-lg-6 col-xl-6 mx-auto mb-4">
@@ -92,11 +91,10 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Siguiente</span>
                             </button>
-                            </div>
-                    </div>
+                          </div>
+                      </div>
                     <?php } ?>
-      </div>
-        <!-- MODAL DE EDICIÓN DE PRODUCTOS -->
+<!-- MODAL DE EDICIÓN DE PRODUCTOS -->
 <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
   EDITAR PRODUCTO
 </button>
@@ -178,11 +176,9 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
       </div>
-        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </div>
 <!--MERCADO PAGO -->
 <?php
@@ -208,7 +204,6 @@
   const mp = new MercadoPago(public_key, {
     locale: 'es-AR'
   });
-
  const checkout = mp.checkout({
     preference: {
       id: '<?php echo $preference-> id; ?>'
@@ -220,7 +215,7 @@
   });
 </script> <!--FIN MERCADO PAGO -->
 <!-- FOOTER -->
-<footer class="text-center text-lg-start bg-light text-muted" id = "contactanos">
+<footer class="text-center text-lg-start bg-light text-muted" id="contactanos">
     <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
         <div>
             <button type="button" class="btn btn-info" data-mdb-ripple-color="white"><a href="php/cerrar_sesion.php" id="cerrar-sesion"> CERRAR SESIÓN</a></button>
@@ -230,12 +225,14 @@
         <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-2 col-xl-6 mx-auto mb-4">
-                    <h1 class="text-uppercase fw-bold mb-4" id = "contacto">Contacto</h1>
-                    <p class = "text" style = "text-align:center;"> <i class="bi bi-geo-alt"></i> BUENOS AIRES, 10012, AR</p>
-                    <p class = "text" style = "text-align:center;"> <i class="bi bi-envelope"></i> INFO@MUEBLERIA.COM</p>
-                    <p class = "text" style = "text-align:center;"> <i class="bi bi-phone"></i> 1145678920</p>
-                    <p class = "text" style = "text-align:center;"> <i class="bi bi-phone"></i> 1145654327</p>
-                    <h1 class="text-uppercase fw-bold mb-4" id = "contacto"> <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes </h1>
+                    <h1 class="text-uppercase fw-bold mb-4" id="contacto">Contacto</h1>
+                    <p class="text" style="text-align: center;"><i class="bi bi-geo-alt"></i> BUENOS AIRES, 10012, AR</p>
+                    <p class="text" style="text-align: center;"><i class="bi bi-envelope"></i> INFO@MUEBLERIA.COM</p>
+                    <p class="text" style="text-align: center;"><i class="bi bi-phone"></i> 1145678920</p>
+                    <p class="text" style="text-align: center;"><i class="bi bi-phone"></i> 1145654327</p>
+                    <h1 class="text-uppercase fw-bold mb-4" id="contacto">
+                        <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes
+                    </h1>
                 </div>
             </div>
         </div>
@@ -245,11 +242,11 @@
         <a class="text-reset fw-bold">MUEBLERIA.COM</a>
     </div>
 </footer>
-        <script src="assets/javascript/script.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     </body>
 </html>
