@@ -443,7 +443,7 @@ a#button {
 /* BOTON MERCADO PAGO */
 .contenedor-btn {
     display: flex;
-    margin-top: -7.5%;
+    margin-top: -7.6%;
     margin-left: 20%;
     margin-bottom: 12px;
 }
@@ -769,5 +769,8 @@ input.btn.btn-info {
    .contenedor-btn {
     justify-content: center;
     margin-left: -24px;
+   }
+   div#contenedor {
+    margin-top: 23%;
    }
 }
