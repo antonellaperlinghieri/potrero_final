@@ -171,7 +171,7 @@
     </div>
 </section>
 <div class="box">
-    <div class="container">
+    <div class="container" style = "margin-top:0px;margin-bottom:0px;">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="box-part text-center">
@@ -210,10 +210,10 @@
     </div>
 </div>
   <!-- CARDS -->
-  <div class="container">
+  <div class="container" style = "margin-top:0px;margin-bottom:0px;">
     <h1 class = "title-productos"  id = "productos" style = "text-align : center;"> NUESTROS PRODUCTOS</h1>
 </div>
-  <div class="container">
+  <div class="container" style = "margin-top:24px;margin-bottom:0px;" >
       <div class="row" style = "--mdb-gutter-x: 4rem;">
         <?php
         // 1) Conexion
@@ -245,7 +245,7 @@
             </ol>
         </div>
     </div>
-    <div class="container">
+    <div class="container" style = "margin-top:0px;margin-bottom:0px;">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%;">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -315,7 +315,7 @@
         </div>
     </div>
 </section>
-<div class="container">
+<div class="container" style = "margin-top:80px;margin-bottom:0px;">
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style="margin-left: auto;">
             <h1 class="title">SOBRE NOSOTROS</h1>
@@ -331,7 +331,7 @@
     </div>
 </div>
 <!--GALERIA CAROUSEL -->
-<div class="container" id="galeria">
+<div class="container" id="galeria" style = "margin-top:0px;margin-bottom:0px;">
     <div class="row">
         <h1 class="title col-lg-6 col-xl-6 mx-auto mb-4" style="text-align: center;">PRODUCTOS DESTACADOS</h1>
         <div class="container">
