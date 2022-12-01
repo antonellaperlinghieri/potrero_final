@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 .container {
-    margin: 64px;
+    margin: 10%;
 }
 
 #button {
