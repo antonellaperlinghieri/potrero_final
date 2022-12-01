@@ -233,42 +233,88 @@
       </div>
     </div>
 <!-- SECCIÓN SOBRE NOSOTROS -->
-<!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade col-12" data-mdb-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/imagenes/slider1.jpg" class="d-block w-100" alt="Sunset Over the City" />
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="title-slider">DESDE 1960 MARCANDO TENDENCIA</h2>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/imagenes/slider2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="title-slider">MUEBLES PARA TODOS LOS ESTILOS</h2>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/imagenes/slider3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="title-slider">DISEÑOS A MEDIDA</h2>
-            </div>
+<!-- SLIDER -->
+<section class="slider_section" id="inicio">
+    <div class="number_box">
+        <div>
+            <ol class="carousel-indicators indicator-2">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3">04</li>
+            </ol>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%;">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="detail-box">
+                                <h1>
+                                    DESDE 1960
+                                    <span>
+                                        MARCANDO TENDENCIA
+                                    </span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 img-container">
+                            <div class="img-box">
+                                <img src="assets/imagenes/slider1.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="detail-box">
+                                <h1>
+                                    MUEBLES PARA
+                                    <span>
+                                        TODOS LOS ESTILOS
+                                    </span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 img-container">
+                            <div class="img-box">
+                                <img src="assets/imagenes/slider2.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="detail-box">
+                                <h1>
+                                    DISEÑOS 
+                                    <span>
+                                        A MEDIDA
+                                    </span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-md-6 img-container">
+                            <div class="img-box">
+                                <img src="assets/imagenes/slider3.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <div class="container">
     <div class="row">
         <div class="col-lg-6 col-xl-6 mx-auto mb-4" style="margin-left: auto;">
