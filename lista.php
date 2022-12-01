@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<div class="container">
+<div class="container col-lg-6 col-xl-6 mx-auto mb-4">
     <h1 class = "titulo">MUEBLERIA</h1>
     <p class = "textos">LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
     <table class="table table-bordered border-primary">
