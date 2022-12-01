@@ -388,7 +388,7 @@
                     <h1 class="text-uppercase fw-bold mb-4" id="contacto">
                         <a class="btn btn-primary btn-lg btn-floating" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a> Seguinos en nuestras redes
                     </h1>
-                    <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo" alt="" srcset="" style="width: 25%; margin-left:32%;" /> </a>
+                    <a class="navbar-brand" href="inicio.php"> <img src="assets/imagenes/logo2.png" class="logo .d-lg-none" alt="" srcset="" style="width: 25%; margin-left:34%;" /> </a>
                 </div>
             </div>
         </div>
