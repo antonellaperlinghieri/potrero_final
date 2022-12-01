@@ -796,6 +796,9 @@ input.btn.btn-info {
    h5.medio-pago {
     text-align: center;
    }
+   img.mercado-pago {
+    margin-left: 38%;
+   }
 }
 
 /* RESPONSIVE PARA CELULAR */
