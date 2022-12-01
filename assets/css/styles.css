@@ -593,6 +593,7 @@ a#cerrar-sesion:hover {
 
 .slider_section .img-container .img-box {
     width: 80%;
+    display: contents;
 }
 
 .slider_section .img-container .img-box img {
