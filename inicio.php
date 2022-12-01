@@ -234,7 +234,7 @@
     </div>
 <!-- SECCIÓN SOBRE NOSOTROS -->
 <!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade col-lg-6 col-xl-6 mx-auto mb-4" data-mdb-ride="carousel">
+<div id="carouselBasicExample" class="carousel slide carousel-fade col-12" data-mdb-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
