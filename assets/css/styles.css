@@ -443,7 +443,8 @@ a#button {
 /* BOTON MERCADO PAGO */
 .contenedor-btn {
     display: flex;
-    margin-left: 9%;
+    margin-top: -7.5%;
+    margin-left: 20%;
     margin-bottom: 12px;
 }
 /* BOTON INSTAGRAM */
@@ -762,6 +763,9 @@ input.btn.btn-info {
 @media screen and (max-width : 850px) {
    button#button-edit.btn.btn-info {
     min-width: max-content;
-    margin-left: 30%;
+    margin-left: 32%;
+   }
+   .contenedor-btn {
+    margin-left:9%;
    }
 }
