@@ -467,7 +467,6 @@ a#cerrar-sesion:hover {
     height: calc(90% - 70px);
     display: -webkit-box;
     display: -ms-flexbox;
-    margin: 30px;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -772,5 +771,8 @@ input.btn.btn-info {
    }
    div#contenedor {
     margin-top: 23%;
+   }
+   .slider_section {
+    margin-top: 10%;
    }
 }
