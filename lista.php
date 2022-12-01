@@ -14,19 +14,19 @@
 
 </head>
 <body>
-<div class="container col-lg-12 col-xl-12 mx-auto mb-4">
+<div class="container">
     <h1 class = "titulo">MUEBLERIA</h1>
     <p class = "textos">LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
     <table class="table table-bordered border-primary">
     <tr>
-        <th>ID</th>
-        <th>NOMBRE_PRODUCTO</th>
-        <th>DESCRIPCION</th>
-        <th>PRECIO</th>
-        <th>IMAGEN</th>
-        <th>IMAGEN1</th>
-        <th>IMAGEN2</th>
-        <th>EDITAR/BORRAR</th>
+        <th scope="col">ID</th>
+        <th scope="col">NOMBRE_PRODUCTO</th>
+        <th scope="col">DESCRIPCION</th>
+        <th scope="col">PRECIO</th>
+        <th scope="col">IMAGEN</th>
+        <th scope="col">IMAGEN1</th>
+        <th scope="col">IMAGEN2</th>
+        <th scope="col">EDITAR/BORRAR</th>
     </tr>
 </div>
     <?php
