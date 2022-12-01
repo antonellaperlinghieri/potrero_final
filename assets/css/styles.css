@@ -759,3 +759,8 @@ input.btn.btn-info {
     font-size: 2.5em;
 }
 
+@media screen and (max-width : 850px) {
+   #button-edit {
+    width: 32%;
+   }
+}
