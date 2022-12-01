@@ -780,4 +780,7 @@ input.btn.btn-info {
     .slider_section .detail-box h1 {
         font-size: 3.2rem;
     }
+    .container-fluid {
+        --mdb-gutter-x :none;
+    }
 }
