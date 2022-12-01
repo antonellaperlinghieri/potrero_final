@@ -760,7 +760,7 @@ input.btn.btn-info {
 }
 
 @media screen and (max-width : 850px) {
-   button#button-edit {
+   button#button-edit.btn.btn-info {
     width: 32%;
    }
 }
