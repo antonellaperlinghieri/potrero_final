@@ -783,6 +783,19 @@ input.btn.btn-info {
     display: flex;
     justify-content: center;
    }
+   h5.card-title {
+    text-align: center;
+   }
+   .product-price {
+    display: flex;
+    justify-content: center;
+   }
+   h5.descripcion {
+    text-align: center;
+   }
+   h5.medio-pago {
+    text-align: center;
+   }
 }
 
 /* RESPONSIVE PARA CELULAR */

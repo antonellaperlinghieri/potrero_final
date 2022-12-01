@@ -59,7 +59,7 @@
                                 </p>
                                 <hr />
                                 <h5 class="medio-pago">MEDIOS DE PAGO</h5>
-                                <img src="assets/imagenes/medios-de-pago.png" alt="medio-pago" width="100px" />
+                                <img src="assets/imagenes/medios-de-pago.png" class = "mercado-pago" alt="medio-pago" width="100px" />
                                 <hr />
                             </div>
                         </div>
