@@ -766,10 +766,10 @@ input.btn.btn-info {
 
 @media screen and (max-width: 370px) {
     .title-productos {
-        font-size: 3em;
+        font-size: 2em;
     }
     .title {
-        font-size: 3em;
+        font-size: 2em;
     }
     .slider_section {
         margin-top: 29%;
