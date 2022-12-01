@@ -785,12 +785,8 @@ input.btn.btn-info {
         --mdb-gutter-x :none;
     }
     .logo {
-        display: none;
+        width: 60px;
     }
 }
 
-@media screen and (max-width: 414px) {
-    .logo {
-        display: none;
-    }
-}
+
