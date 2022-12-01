@@ -233,7 +233,7 @@
       </div>
     </div>
 <!-- SECCIÓN SOBRE NOSOTROS -->
-<!-- SLIDER -->
+<!-- SLIDER2 -->
 <section class="slider_section" id="inicio">
     <div class="number_box">
         <div>
