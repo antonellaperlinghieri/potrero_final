@@ -783,4 +783,7 @@ input.btn.btn-info {
     .container-fluid {
         --mdb-gutter-x :none;
     }
+    .logo {
+        display: none;
+    }
 }
