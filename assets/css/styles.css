@@ -764,7 +764,7 @@ input.btn.btn-info {
 
 /* RESPONSIVE PARA CELULAR */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .title-productos {
         font-size: 3em;
     }
