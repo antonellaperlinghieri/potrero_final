@@ -760,12 +760,14 @@ input.btn.btn-info {
     font-size: 2.5em;
 }
 
+/* RESPONSIVE BOTONES */
 @media screen and (max-width : 850px) {
    button#button-edit.btn.btn-info {
     min-width: max-content;
     margin-left: 32%;
    }
    .contenedor-btn {
-    margin-right:15%;
+    justify-content: center;
+    margin-left: -24px;
    }
 }
