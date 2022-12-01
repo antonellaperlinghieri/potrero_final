@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<div class="table-responsive-sm">
+<div class="table-responsive-md">
     <h1 class = "titulo">MUEBLERIA</h1>
     <p class = "textos">LA SIGUIENTE LISTA MUESTRA TODOS LOS PRODUCTOS ACTUALMENTE EN STOCK.</p>
     <table class="table table-bordered border-primary">
