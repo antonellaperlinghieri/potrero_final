@@ -776,6 +776,9 @@ input.btn.btn-info {
    .slider_section .detail-box h1 {
     text-align: center;
    }
+   h3.card-title {
+    text-align: center;
+   }
 }
 
 /* RESPONSIVE PARA CELULAR */
