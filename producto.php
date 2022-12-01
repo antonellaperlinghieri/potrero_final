@@ -95,7 +95,7 @@
                       </div>
                     <?php } ?>
 <!-- MODAL DE EDICIÓN DE PRODUCTOS -->
-<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" width = "14%">
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" style = "width:14%">
   EDITAR PRODUCTO
 </button>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
