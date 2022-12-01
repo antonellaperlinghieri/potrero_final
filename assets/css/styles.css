@@ -767,6 +767,15 @@ input.btn.btn-info {
    .silla {
     margin-left: 60px;
    }
+   .title {
+    text-align: center;
+   }
+   .text {
+    text-align: center;
+   }
+   .slider_section .detail-box h1 {
+    text-align: center;
+   }
 }
 
 /* RESPONSIVE PARA CELULAR */
