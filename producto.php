@@ -135,7 +135,7 @@
             <input type="text" name="nombreproducto" value="<?php echo "$nombreproducto"; ?>">
             <label style = "display: flex;" class = "text" >descripcion</label>
             <input type="text" name="descripcion"  value="<?php echo "$descripcion"; ?>">
-            <label style = "display: flex;" class = "text" >precio</label>
+            <label style = "display: flex;" class = "text" >PRECIO</label>
             <input type="text" name="precio" value="<?php echo "$precio"; ?>">
             <label style = "display: flex;" class = "text" >Imagen</label>
             <input type="file" name="imagen" placeholder="imagen">
