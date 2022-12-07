@@ -62,7 +62,7 @@ main {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(5px);
-    background-color: #091129;
+    background-color: #009EE3;
 }
 
 .caja-trasera div {
@@ -97,7 +97,7 @@ main {
 
 .caja-trasera button:hover {
     background: #fff;
-    color: #0f4070;
+    color: #009EE3;
 }
 
 /* FORMULARIOS */
@@ -124,7 +124,7 @@ main {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #091129;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -143,7 +143,7 @@ main {
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46A2FD;
+    background: #009EE3;
     color: #fff;
     cursor: pointer;
     outline: none;
@@ -587,8 +587,8 @@ a#cerrar-sesion:hover {
     width: 100%;
 }
 
-.slider_section .play_btn {
-    background-color: #24d278;
+
+.slider_section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
