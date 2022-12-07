@@ -143,7 +143,7 @@ main {
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #009EE3;
+    background: #46A2FD;
     color: #fff;
     cursor: pointer;
     outline: none;
@@ -587,8 +587,7 @@ a#cerrar-sesion:hover {
     width: 100%;
 }
 
-
-.slider_section {
+.slider_section .play_btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
